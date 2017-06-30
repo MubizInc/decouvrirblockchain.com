@@ -14,62 +14,70 @@
 			<p><i class="fa fa-envelope color-white"></i> contact@mubiz.com</p>
 		</div>
 		<div class="col-md-3">
-			<div class="title"><?=FOOTER_RUBRIQUE_TITLE_1?></div>
-			<div class="footer_link">
+			<h3><?=FOOTER_RUBRIQUE_TITLE_1?></h3>
+			<ul class="list-style-none text-gray">
+				<li>
 				<?php 
-					if($_SESSION['page']==="buy"){	echo('<div class="active">'.FOOTER_ITEM_BUY.'</div>');}
+					if($_SESSION['page']==="buy"){	echo('<li class="active">'.FOOTER_ITEM_BUY.'</li>');}
 					else{							echo('<a href="/buy" title="'.FOOTER_ITEM_BUY_TITLE.'">'.FOOTER_ITEM_BUY.'</a>');}
 				?>
-			</div>
-			<?php 	
-				/*
-				<div class="footer_link">
-					<?php 
-						if($_SESSION['page']==="seller"){	echo('<div class="active">'.FOOTER_ITEM_SELLER.'</div>');}
-						else{								echo('<a href="/seller" title="'.FOOTER_ITEM_SELLER_TITLE.'">'.FOOTER_ITEM_SELLER.'</a>');}
-					?>
-				</div>
-				<div class="footer_link">
-					<?php 
-						if($_SESSION['page']==="logistic"){	echo('<div class="active">'.FOOTER_ITEM_LOGISTIC.'</div>');}
-						else{								echo('<a href="/logistic" title="'.FOOTER_ITEM_LOGISTIC_TITLE.'">'.FOOTER_ITEM_LOGISTIC.'</a>');}
-					?>
-				</div>
-				<div class="footer_link">
-					<?php 
-						if($_SESSION['page']==="payment"){	echo('<div class="active">'.FOOTER_ITEM_PAYMENT.'</div>');}
-						else{								echo('<a href="/payment" title="'.FOOTER_ITEM_PAYMENT_TITLE.'">'.FOOTER_ITEM_PAYMENT.'</a>');}
-					?>
-				</div>
-	 			<div class="footer_link">
-					<?php 
-						if($_SESSION['page']==="loyalty"){	echo('<div class="active">'.FOOTER_ITEM_LOYALTY.'</div>');}
-						else{								echo('<a href="/loyalty" title="'.FOOTER_ITEM_LOYALTY_TITLE.'">'.FOOTER_ITEM_LOYALTY.'</a>');}
-					?>
-				</div>
-				<div class="footer_link">
-					<?php 
-						if($_SESSION['page']==="funding"){	echo('<div class="active">'.FOOTER_ITEM_FUNDING.'</div>');}
-						else{								echo('<a href="/funding" title="'.FOOTER_ITEM_FUNDING_TITLE.'">'.FOOTER_ITEM_FUNDING.'</a>');}
-					?>
-				</div>
-				*/
-			?>
-			<div class="footer_link">
-				<?php 
-					if($_SESSION['page']==="launcher"){	echo('<div class="active">'.FOOTER_ITEM_LAUNCHER.'</div>');}
-					else{								echo('<a href="/launcher" title="'.FOOTER_ITEM_LAUNCHER_TITLE.'">'.FOOTER_ITEM_LAUNCHER.'</a>');}
+				</li>
+				<?php 	
+					/*
+					<div class="footer_link">
+						<?php 
+							if($_SESSION['page']==="seller"){	echo('<div class="active">'.FOOTER_ITEM_SELLER.'</div>');}
+							else{								echo('<a href="/seller" title="'.FOOTER_ITEM_SELLER_TITLE.'">'.FOOTER_ITEM_SELLER.'</a>');}
+						?>
+					</div>
+					<div class="footer_link">
+						<?php 
+							if($_SESSION['page']==="logistic"){	echo('<div class="active">'.FOOTER_ITEM_LOGISTIC.'</div>');}
+							else{								echo('<a href="/logistic" title="'.FOOTER_ITEM_LOGISTIC_TITLE.'">'.FOOTER_ITEM_LOGISTIC.'</a>');}
+						?>
+					</div>
+					<div class="footer_link">
+						<?php 
+							if($_SESSION['page']==="payment"){	echo('<div class="active">'.FOOTER_ITEM_PAYMENT.'</div>');}
+							else{								echo('<a href="/payment" title="'.FOOTER_ITEM_PAYMENT_TITLE.'">'.FOOTER_ITEM_PAYMENT.'</a>');}
+						?>
+					</div>
+		 			<div class="footer_link">
+						<?php 
+							if($_SESSION['page']==="loyalty"){	echo('<div class="active">'.FOOTER_ITEM_LOYALTY.'</div>');}
+							else{								echo('<a href="/loyalty" title="'.FOOTER_ITEM_LOYALTY_TITLE.'">'.FOOTER_ITEM_LOYALTY.'</a>');}
+						?>
+					</div>
+					<div class="footer_link">
+						<?php 
+							if($_SESSION['page']==="funding"){	echo('<div class="active">'.FOOTER_ITEM_FUNDING.'</div>');}
+							else{								echo('<a href="/funding" title="'.FOOTER_ITEM_FUNDING_TITLE.'">'.FOOTER_ITEM_FUNDING.'</a>');}
+						?>
+					</div>
+					*/
 				?>
-			</div>
-			<div class="footer_link">
-				<?php 
-					if($_SESSION['page']==="institute"){	echo('<div class="active">'.FOOTER_ITEM_INSTITUTE.'</div>');}
-					else{								echo('<a href="/institute" title="'.FOOTER_ITEM_INSTITUTE_TITLE.'">'.FOOTER_ITEM_INSTITUTE.'</a>');}
-				?>
-			</div>
+				<li>
+					<?php 
+						if($_SESSION['page']==="launcher"){	echo('<div class="active">'.FOOTER_ITEM_LAUNCHER.'</div>');}
+						else{								echo('<a href="https://mubiz.com/launcher" title="'.FOOTER_ITEM_LAUNCHER_TITLE.'">'.FOOTER_ITEM_LAUNCHER.'</a>');}
+					?>
+				</li>
+				<li>
+					<?php 
+						if($_SESSION['page']==="institute"){	echo('<div class="active">'.FOOTER_ITEM_INSTITUTE.'</div>');}
+						else{								echo('<a href="https://mubiz.com/institute" title="'.FOOTER_ITEM_INSTITUTE_TITLE.'">'.FOOTER_ITEM_INSTITUTE.'</a>');}
+					?>
+				</li>
+				<li>
+					<?php 
+						if($_SESSION['page']==="donation"){	echo('<div class="active">Don et Soutien</div>');}
+						else{								echo('<a href="/donation" title="Don">Don et soutien</a>');}
+					?>
+				</li>
+			</ul>
 		</div>
 		<div class="col-md-3">
-			<div class="title"><?=FOOTER_RUBRIQUE_TITLE_4?></div>
+			<h3><?=FOOTER_RUBRIQUE_TITLE_4?></h3>
 			<div class="footer_link">
 				<?php 
 					if($_SESSION['page']==="about"){echo('<div class="active">'.FOOTER_ITEM_ABOUT.'</div>');}
@@ -85,13 +93,13 @@
 			<div class="footer_link">
 				<?php 
 					if($_SESSION['page']==="press"){echo('<div class="active">'.FOOTER_ITEM_PRESS.'</div>');}
-					else{							echo('<a href="/press" title="'.FOOTER_ITEM_PRESS_TITLE.'">'.FOOTER_ITEM_PRESS.'</a>');}
+					else{							echo('<a href="https://mubiz.com/press" title="'.FOOTER_ITEM_PRESS_TITLE.'">'.FOOTER_ITEM_PRESS.'</a>');}
 				?>
 			</div>
 			<div class="footer_link">
 				<?php 
 					if($_SESSION['page']==="team"){	echo('<div class="active">'.FOOTER_ITEM_TEAM.'</div>');}
-					else{							echo('<a href="/team" title="'.FOOTER_ITEM_TEAM_TITLE.'">'.FOOTER_ITEM_TEAM.'</a>');}
+					else{							echo('<a href="https://mubiz.com/team" title="'.FOOTER_ITEM_TEAM_TITLE.'">'.FOOTER_ITEM_TEAM.'</a>');}
 				?>
 			</div>
 			<div class="footer_link">
@@ -102,7 +110,7 @@
 			</div>
 		</div>
 		<div class="col-md-3">
-			<div class="title"><?=FOOTER_RUBRIQUE_TITLE_5?></div>
+			<h3><?=FOOTER_RUBRIQUE_TITLE_5?></h3>
 			<div class="footer_link">
 				<div class="social">
 					<a href="<?=FACEBOOK_MUBIZ_URL?>" title="<?=FACEBOOK_MUBIZ_TITLE?>" rel="nofollow" target="_blank">

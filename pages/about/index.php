@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -32,40 +30,10 @@
 </head>
 
 <body>
-
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand" href="index.html">Start Bootstrap</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="about.html">About</a>
-                    </li>
-                    <li>
-                        <a href="post.html">Sample Post</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+    <?php
+        include_once(ROOT_PATH."/pages/common/nav.php");
+    ?>
 
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
@@ -74,9 +42,9 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="page-heading">
-                        <h1>About Me</h1>
+                        <h1>A propos de DecouvrirBlockchain</h1>
                         <hr class="small">
-                        <span class="subheading">This is what I do.</span>
+                        <span class="subheading">Vous donner envie d'essayer</span>
                     </div>
                 </div>
             </div>
@@ -87,9 +55,16 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius praesentium recusandae illo eaque architecto error, repellendus iusto reprehenderit, doloribus, minus sunt. Numquam at quae voluptatum in officia voluptas voluptatibus, minus!</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum molestiae debitis nobis, quod sapiente qui voluptatum, placeat magni repudiandae accusantium fugit quas labore non rerum possimus, corrupti enim modi! Et.</p>
+                <p>
+                    DecouvrirBlockchain est un site gratuit ayant pour objectif d'inciter toute personne souhaitant mieux comprendre la technologie blockchain à la tester et la pratiquer. DecouvrirBlockchain est un projet ouvert, porté par l'entreprise <a href="https://mubiz.com" title="Mubiz">Mubiz</a>.
+                </p>
+                <p>
+                    DecouvrirBlockchain est ouvert à tous les rédacteurs souhaitant proposer leur tutorial. Pour cela, vous pouvez nous transmettre vos propositions d'articles via le formulaire de contact.
+                </p>
+                <p>
+                    Pour conserver une expérience utilisateur professionnelle, DecouvrirBlockchain n'affiche aucune publicité. Aussi, pour soutenir ce site et permettre son hébergement, vous pouvez faire un don, via la page <a href="/donation" title="Soutenir DecouvrirBlockchain">de soutien</a>.
+                </p>
+
             </div>
         </div>
     </div>

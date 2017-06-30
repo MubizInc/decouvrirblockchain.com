@@ -43,7 +43,7 @@
                     <div class="site-heading">
                         <h1>Découvrir Blockchain</h1>
                         <hr class="small">
-                        <span class="subheading">Passer de la théorie à la pratique</span>
+                        <span class="subheading">Vous donner envie d'essayer</span>
                     </div>
                 </div>
             </div>
@@ -67,7 +67,7 @@
                 </div>
                 <hr>
                 <div class="post-preview">
-                    <a href="/post/">
+                    <a href="/1/">
                         <h2 class="post-title">
                             1. Tous - Avoir un porte-feuille mobile (Jaxx, Coinbase ou Mycellium)
                         </h2>
@@ -76,7 +76,7 @@
                 </div>
                 <hr>
                 <div class="post-preview">
-                    <a href="/post/">
+                    <a href="/2/">
                         <h2 class="post-title">
                             2. Paiement - Acheter des bitcoins, des ethers ou des litecoins
                         </h2>
@@ -85,7 +85,7 @@
                 </div>
                 <hr>
                 <div class="post-preview">
-                    <a href="/post/">
+                    <a href="/3/">
                         <h2 class="post-title">
                             3. Banque - Avoir ses crypto-monnaies sur soi, et faire des paiements (dont carte, sites e-commerce, ...) + Exploreurs de blockchains (dont liens vers Github pour versions OpenSource)
                         </h2>
@@ -94,7 +94,7 @@
                 </div>
                 <hr>
                 <div class="post-preview">
-                    <a href="/post/">
+                    <a href="/4/">
                         <h2 class="post-title">
                             4. Banque - Stocker ses bitcoins, ethers, ... sur papier dans un coffre
                         </h2>
@@ -103,16 +103,16 @@
                 </div>
                 <hr>
                 <div class="post-preview">
-                    <a href="/post/">
+                    <a href="/5/">
                         <h2 class="post-title">
-                            5. Notaire - Proof of Existence
+                            5. Notaire - Proof of Existence et archivage d'un document officiel (avec Remembr et BitProof)
                         </h2>
                     </a>
                     <p class="post-meta">Publié par <a href="#">Albin CAUDERLIER</a> le 30 septembre 2017</p>
                 </div>
                 <hr>
                 <div class="post-preview">
-                    <a href="/post/">
+                    <a href="/6/">
                         <h2 class="post-title">
                             6. Développeurs - Mist et Parity
                         </h2>
@@ -121,7 +121,7 @@
                 </div>
                 <hr>
                 <div class="post-preview">
-                    <a href="/post/">
+                    <a href="/7/">
                         <h2 class="post-title">
                             7. Status et le stockage des tokens
                         </h2>
@@ -130,7 +130,7 @@
                 </div>
                 <hr>
                 <div class="post-preview">
-                    <a href="/post/">
+                    <a href="/8/">
                         <h2 class="post-title">
                             8. MyEtherWallet
                         </h2>
@@ -139,7 +139,7 @@
                 </div>
                 <hr>
                 <div class="post-preview">
-                    <a href="/post/">
+                    <a href="/9/">
                         <h2 class="post-title">
                             9. Exploreur de blockchains
                         </h2>
@@ -148,25 +148,25 @@
                 </div>
                 <hr>
                 <div class="post-preview">
-                    <a href="/post/">
+                    <a href="/10/">
                         <h2 class="post-title">
-                            10. Développeurs Browser Solidity et MetaMask
+                            10. Développeurs Browser Solidity et MetaMask (et Faucet à Eth de Ropsten)
                         </h2>
                     </a>
                     <p class="post-meta">Publié par <a href="#">Albin CAUDERLIER</a> le 30 septembre 2017</p>
                 </div>
                 <hr>
                 <div class="post-preview">
-                    <a href="/post/">
+                    <a href="/11/">
                         <h2 class="post-title">
-                            11. Coinb.in
+                            11. Coinb.in et préserver son identité sur bitcoin
                         </h2>
                     </a>
                     <p class="post-meta">Publié par <a href="#">Albin CAUDERLIER</a> le 30 septembre 2017</p>
                 </div>
                 <hr>
                 <div class="post-preview">
-                    <a href="/post/">
+                    <a href="/12/">
                         <h2 class="post-title">
                             12. Commerce - OpenBazaar, Particl et Mubiz
                         </h2>
@@ -175,7 +175,7 @@
                 </div>
                 <hr>
                 <div class="post-preview">
-                    <a href="/post/">
+                    <a href="/13/">
                         <h2 class="post-title">
                             13. Build a coin et TokenFactory
                         </h2>
@@ -184,16 +184,16 @@
                 </div>
                 <hr>
                 <div class="post-preview">
-                    <a href="/post/">
+                    <a href="/14/">
                         <h2 class="post-title">
-                            14. Trading - CoinMarketCap, CoinCap.io et CryptoWatch
+                            14. Trading - CoinMarketCap, CoinCap.io et CryptoWatch et BitcoinWidget (mobile)
                         </h2>
                     </a>
                     <p class="post-meta">Publié par <a href="#">Albin CAUDERLIER</a> le 30 septembre 2017</p>
                 </div>
                 <hr>
                 <div class="post-preview">
-                    <a href="/post/">
+                    <a href="/15/">
                         <h2 class="post-title">
                             15. Développeurs - Postman et liste des API (dont Mubiz, CoinMarketCap, CryptoWatch, BlockStack, ...)
                         </h2>
@@ -202,7 +202,7 @@
                 </div>
                 <hr>
                 <div class="post-preview">
-                    <a href="/post/">
+                    <a href="/16/">
                         <h2 class="post-title">
                             16. Registre d'Identité et KYC - Enregistrer une identité sur Onename et BitNation
                         </h2>
@@ -211,7 +211,7 @@
                 </div>
                 <hr>
                 <div class="post-preview">
-                    <a href="/post/">
+                    <a href="/17/">
                         <h2 class="post-title">
                             17. Indicateurs et suivi de l'évolution de la technologie (Google Trends, lien vers taille blockchain, CoinMarketCap, ...)
                         </h2>
@@ -220,9 +220,36 @@
                 </div>
                 <hr>
                 <div class="post-preview">
-                    <a href="/post/">
+                    <a href="/18/">
                         <h2 class="post-title">
                             18. Assurance et Paris - Faire un pari sur Augur ou Gnosys
+                        </h2>
+                    </a>
+                    <p class="post-meta">Publié par <a href="#">Albin CAUDERLIER</a> le 30 septembre 2017</p>
+                </div>
+                <hr>
+                <div class="post-preview">
+                    <a href="/post/">
+                        <h2 class="post-title">
+                            19. Investissement - Suivre les ICO (mais de loin...) avec ICO List et ICO Stat
+                        </h2>
+                    </a>
+                    <p class="post-meta">Publié par <a href="#">Albin CAUDERLIER</a> le 30 septembre 2017</p>
+                </div>
+                <hr>
+                <div class="post-preview">
+                    <a href="/post/">
+                        <h2 class="post-title">
+                            20. Logistique - Les ColoredCoins (CoPay, CoinPris, Colu, ...)
+                        </h2>
+                    </a>
+                    <p class="post-meta">Publié par <a href="#">Albin CAUDERLIER</a> le 30 septembre 2017</p>
+                </div>
+                <hr>
+                <div class="post-preview">
+                    <a href="/post/">
+                        <h2 class="post-title">
+                            21. Fidélité et Billeterie - Les ColoredCoins (CoPay, CoinPris, Colu, ...) et Czam
                         </h2>
                     </a>
                     <p class="post-meta">Publié par <a href="#">Albin CAUDERLIER</a> le 30 septembre 2017</p>
