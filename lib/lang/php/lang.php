@@ -12,26 +12,13 @@
 function detectLang(){
 	// Liste des langues connues par le site.
 	// TODO - Déplacer cette liste dans la configuration de la lib "lang"
-	$knownLanguage=array("ar","de","en","es","fr","it","ru");
+	$knownLanguage=array("de","en","fr");
 	
-	// Si le login est connecté + qu'il a une langue d'enregistrée
-	if(isset($_SESSION['isConnected']) && !empty($_SESSION['isConnected']) && isset($_SESSION['login']) && !empty($_SESSION['login'])){
-		require_once("/home/admin/git/mubiz-mo-api/controller/lib/authentication/authentication.php");
-		// Inclusion des paramètres d"authentication
-		if(is_login_confirmed($_SESSION["login"])){
-			require_once("/home/admin/git/mubiz-mo-api/controller/lib/lang/php/lang.php");
-			$userLang=get_authentification_lang($_SESSION["login"]);
-			
-			// Vérification que la lang indiquée est bien dans celles proposées par le site.
-			if(in_array($userLang,$knownLanguage)){
-				return $userLang;
-			}
-		}
-	}
-	
-	// I. S'il s'agit d"un sous-domaine de lang, return la langue du sous-domaine
+	// I. S'il s'agit d'un sous-domaine de lang, return la langue du sous-domaine
 	if(isset($_SERVER["SERVER_NAME"])){
 		$userLang=substr($_SERVER["SERVER_NAME"],0,2);
+		
+		return "fr";
 		
 		// Vérification que la lang indiquée est bien dans celles proposées par le site.
 		if(in_array($userLang, $knownLanguage)){

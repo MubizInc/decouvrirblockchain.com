@@ -1,4 +1,3 @@
-
 	<meta charset="UTF-8" />
 
 	<meta name="robots"         content="index,follow"/>
@@ -27,6 +26,28 @@
 	<meta name="twitter:url"		content="<?=ROOT_URL.$_SERVER["REDIRECT_URL"]?>"/>
 	
 	<meta name="theme-color" content="#009999">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="/css/clean-blog.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 	
 	<?php 
 		if(isMobile()){
@@ -44,46 +65,17 @@
 			echo('<link rel="canonical" href="http://'.$_SESSION['lang'].'.'.COOKIE_URL.$_SERVER["REDIRECT_URL"].'" />');
 		}
 		
-		
-		if($_SESSION['lang']!=="ar"){
-			echo('<link rel="alternate" hreflang="ar" href="https://ar.'.COOKIE_URL.$_SERVER["REDIRECT_URL"].'"/>');
-		}
 		if($_SESSION['lang']!=="de"){
 			echo('<link rel="alternate" hreflang="de" href="https://de.'.COOKIE_URL.$_SERVER["REDIRECT_URL"].'"/>');
 		}
 		if($_SESSION['lang']!=="en"){
 			echo('<link rel="alternate" hreflang="en" href="https://en.'.COOKIE_URL.$_SERVER["REDIRECT_URL"].'"/>');
 		}
-		if($_SESSION['lang']!=="es"){
-			echo('<link rel="alternate" hreflang="es" href="https://es.'.COOKIE_URL.$_SERVER["REDIRECT_URL"].'"/>');
-		}
 		if($_SESSION['lang']!=="fr"){
 			echo('<link rel="alternate" hreflang="fr" href="https://fr.'.COOKIE_URL.$_SERVER["REDIRECT_URL"].'"/>');
 		}
-		/*
-		 if($_SESSION['lang']!=="hi"){
-			echo('<link rel="alternate" hreflang="hi" href="http://hi.'.COOKIE_URL.$_SERVER["REDIRECT_URL"].'"/>');
-		 }
-		 if($_SESSION['lang']!=="hu"){
-			echo('<link rel="alternate" hreflang="hu" href="http://hu.'.COOKIE_URL.$_SERVER["REDIRECT_URL"].'"/>');
-		 }
-		 */
-		if($_SESSION['lang']!=="it"){
-			echo('<link rel="alternate" hreflang="it" href="https://it.'.COOKIE_URL.$_SERVER["REDIRECT_URL"].'"/>');
-		}
-		/*
-		 if($_SESSION['lang']!=="nl"){
-			echo('<link rel="alternate" hreflang="nl" href="http://nl.'.COOKIE_URL.$_SERVER["REDIRECT_URL"].'"/>');
-		 }
-		 if($_SESSION['lang']!=="pl"){
-			echo('<link rel="alternate" hreflang="pl" href="http://pl.'.COOKIE_URL.$_SERVER["REDIRECT_URL"].'"/>');
-		 }
-		 */
-		if($_SESSION['lang']!=="ru"){
-			echo('<link rel="alternate" hreflang="ru" href="https://ru.'.COOKIE_URL.$_SERVER["REDIRECT_URL"].'"/>');
-		}
 
-		include('lib/bootstrap/bootstrap_header.php');
+		//include('lib/bootstrap/bootstrap_header.php');
 	?>
 
 	<link rel="stylesheet"    		media="all"		type="text/css" 	href="/style/design.css"   />
@@ -91,11 +83,12 @@
 	<!-- <link rel="stylesheet"    	media="print"	type="text/css"  	href="/style/style_print.css"    />  -->
 	<link rel="shortcut icon"   					type="image/ico"	href="/images/favicon.png" 	/>
 	
-    <script type="text/javascript" src="/lib/highlight/highlight.pack.js"></script>
-	<script type="text/javascript" src="/js/design.js"></script>
+    <!-- <script type="text/javascript" src="/lib/highlight/highlight.pack.js"></script> -->
+	<!-- <script type="text/javascript" src="/js/design.js"></script> -->
 	
 	<?php // TODO - Adapter si page produit ?>
 	<script type="application/ld+json">
+	/*
 	{
 		"@context" : "http://schema.org",
 		"@type" : "Organization",
@@ -108,4 +101,7 @@
 						"https://www.pinterest.com/mubizcom"
 					]
 	}
+	*/
 	</script>
+
+
