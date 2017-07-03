@@ -9,6 +9,9 @@
 
     <?php
         include_once(ROOT_PATH."/pages/common/head.php");
+
+		// SOCIAL
+		$shared_url = "http://".COOKIE_URL.$_SERVER["REDIRECT_URL"];
     ?>
 </head>
 <body>
@@ -32,6 +35,53 @@
             </div>
         </div>
     </header>
+
+    <section>
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+					<ul class="col-md-6 crumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+						<li class="first" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+							<a itemprop="item" href="/" title="DecouvrirBlockchain">
+								<span itemprop="name"><i class="fa fa-home"></i> DecouvrirBlockchain</span>
+							</a>
+							<meta itemprop="position" content="1"/>
+						</li>
+						<li class="last" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+							<a itemprop="item" title="Introduction">
+								<span itemprop="name">Introduction</span>
+							</a>
+							<meta itemprop="position" content="2"/>
+						</li>
+					</ul>
+					<div class="col-md-6" id="vendor_share_buttons">
+						<div class="share_button">
+							<?php 
+								$tweet_text="";
+								
+								if(!empty($store_presentation['name']))	$tweet_text=$store_presentation['name'];
+								
+								$tweet_text.="%20@Mubiz_".$_SESSION['lang'];
+								$tweet_text.="%20".ROOT_URL.$_SERVER["REDIRECT_URL"];
+							?>
+							<a href="https://twitter.com/intent/tweet?text=<?=$tweet_text?>" data-size="large" rel="nofollow" target="_blanck">
+								<div class="link share_button twitter_share_button float-right">
+									<img src="/img/social/twitter-square.png" alt="twitter"/> Partager
+								</div>
+							</a>
+						</div>
+						<div class="share_button">
+							<a href="https://www.facebook.com/sharer/sharer.php?app_id=1261950717171137&sdk=joey&u=<?=ROOT_URL.$_SERVER["REDIRECT_URL"]?>&display=popup&ref=plugin&src=share_button" data-size="large" rel="nofollow" target="_blanck">
+								<div class="link share_button facebook_share_button float-right">
+									<img src="/img/social/facebook-square.png" alt="facebook"/> Partager
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+    		</div>
+    	</div>
+    </section>
 
     <!-- Post Content -->
     <article>
@@ -62,10 +112,10 @@
 
                     <h2 class="section-heading">La force de l'expérience</h2>
                     <p>
-                        On peut être surpris par l'écart de compétence - et indirectement de pertinence - qui se crée entre les personnes ayant vu et pratiqué, et celles qui ont étudié, parfois en détails, ... sans jamais expérimenter. Comme toute innovation, la blockchain apporte son lot d'experts, aux savoirs théoriques impressionnants, qui n'ont pourtant jamais pratiqué.
+                        On peut être surpris par l'écart de compétence - et indirectement de pertinence - qui se crée entre les personnes ayant vu et pratiqué, et celles qui ont étudié, parfois en détails,... sans jamais expérimenter. Comme toute innovation, la blockchain apporte son lot d'experts, aux savoirs théoriques impressionnants, qui n'ont pourtant jamais pratiqué.
                     </p>
                     <p>
-                        Probablement par peur de la complexité technique, certains cols blancs préfèrent rester loin de l'utilisation réelle. En nouvelle technologie, "Se remonter les manches et mettre les mains dans le cambouis" se limite bien souvent à télécharger quelques applications, saisir quelques données sur un clavier et cliquer sur quelques boutons. Rien de bien salissant. Pourquoi alors cet écart entre "les théoriciens" et "les explorateurs" ?
+                        Probablement par peur de la complexité technique, certains cols blancs préfèrent rester loin de l'utilisation réelle. En nouvelle technologie, "se remonter les manches et mettre les mains dans le cambouis" se limite bien souvent à télécharger quelques applications, saisir des données sur un clavier et cliquer sur quelques boutons. Rien de bien salissant. Pourquoi alors cet écart entre "les théoriciens" et "les explorateurs" ?
                     </p>
 
                     <h2 class="section-heading">Faciliter l'accès et guider</h2>
@@ -74,17 +124,34 @@
                     </p>
  -->
                     <p>
-                        Ce constat a déclenché la création de <strong>DécouvrirBlockchain</strong>. Ce site a vocation à faciliter le passage à la pratique, sans nécessiter de compétence technique. Tous les auteurs sont les bienvenus. Seule condition, faire pratiquer le lecteur, sans nécessiter de manipulation technique. Qu'il n'ait pas uniquement appris, mais qu'il ait réalisé et vécu quelque chose.
+                        Ce constat a déclenché la création de <strong>DécouvrirBlockchain</strong>. Ce site a vocation à faciliter le passage à la pratique, sans nécessiter de compétence technique. Tous les auteurs sont les bienvenus. La seule condition est de faire pratiquer le lecteur, sans nécessiter de manipulation technique, afin qu'il n'ait pas uniquement appris, mais qu'il ait réalisé et vécu quelque chose.
                     </p>
                     <p>
                         Il est temps de découvrir, voir, tester, explorer, essayer, pratiquer, vivre cette technologie,... et nous espérons que <strong>DecouvrirBlockchain</strong> vous y aidera.
                     </p>
+                    <hr/>
+                    <div class="">
+	                    <h3>A propos de l'auteur</h3>
+	                    <div class="row">
+	                    	<div class="col-md-3"></div>
+	                    	<div class="col-md-9"></div>
+	                    </div>
+                    </div>
+                    <hr/>
+	                <a href="/1/">
+	                    <button type="button" class="btn btn-info float-right">
+	                        1. Acheters des crypto-monnaies (bitcoins, ethers, ...) avec quelques euros
+	                        <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+	                    </button>
+	                </a>
+	                <hr/>
                 </div>
             </div>
         </div>
     </article>
+    
 
-    <div class="container">
+<!--     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <a href="/1/">
@@ -96,7 +163,7 @@
             </div>
         </div>
     </div>
-
+ -->
 
     <!-- Footer -->
     <?php
