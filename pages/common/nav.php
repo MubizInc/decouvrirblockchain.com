@@ -7,7 +7,9 @@
                 <span class="sr-only">Toggle navigation</span>
                 <i class="fa fa-bars fa-3"></i>
             </button>
-            <a class="navbar-brand" href="/">DecouvrirBlockchain.com</a>
+            <a class="navbar-brand logo" href="/">
+                <img src="/img/logo/decouvrir-blockchain-logo-white.png" alt="DecouvrirBlockchain.com"/>
+            </a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -16,10 +18,10 @@
                 <li>
                     <a href="/about">A propos</a>
                 </li>
-                <li>
+<!--                 <li>
                     <a href="https://mubiz.com/institute/">Formations</a>
                 </li>
-                <li>
+ -->                <li>
                     <a href="/contact">Contact</a>
                 </li>
             </ul>

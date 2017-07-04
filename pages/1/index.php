@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?=$_SESSION['lang']?>">
 <head>
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Découvrir Blockchain</title>
-
     <?php
         include_once(ROOT_PATH."/pages/common/head.php");
+        include_once(ROOT_PATH."/pages/1/head.php");
+
+        // SOCIAL
+        $shared_url = "http://".COOKIE_URL.$_SERVER["REDIRECT_URL"];
     ?>
 </head>
 <body>
@@ -18,19 +17,66 @@
 
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" style="background-image: url('/img/blockchain/mobile-wallet.jpg')">
+    <header class="intro-header" style="background-image: url('<?=ARTICLE_1_PICTURE?>')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12">
                     <div class="post-heading">
-                        <h1>Acheter des bitcoins, des ethers ou des litecoins</h1>
-                        <h2 class="subheading">Transformer quelques euros en crypto-monnaies</h2>
-                        <span class="meta">Publié par <a href="/about/">Albin CAUDERLIER</a> le 02/07/2017</span>
+                        <h1><?=ARTICLE_1_TITLE?></h1>
+                        <h2 class="subheading"><?=ARTICLE_1_SUBTITLE?></h2>
+                        <span class="meta">Publié par <a href="/about/"><?=ARTICLE_1_AUTHOR?></a> le <?=ARTICLE_1_PUBLISHED_DATE?></span>
                     </div>
                 </div>
             </div>
         </div>
     </header>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="col-md-8 crumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+                        <li class="first" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                            <a itemprop="item" href="/" title="DecouvrirBlockchain">
+                                <span itemprop="name"><i class="fa fa-home"></i> <?=SITE_NAME?></span>
+                            </a>
+                            <meta itemprop="position" content="1"/>
+                        </li>
+                        <li class="last" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                            <a itemprop="item" title="<?=ARTICLE_1_TITLE?>">
+                                <span itemprop="name"><?=ARTICLE_1_TITLE?></span>
+                            </a>
+                            <meta itemprop="position" content="2"/>
+                        </li>
+                    </ul>
+                    <div class="col-md-4" id="vendor_share_buttons">
+                        <div class="share_button">
+                            <?php 
+                                $tweet_text="";
+                                
+                                if(!empty($store_presentation['name'])) $tweet_text=$store_presentation['name'];
+                                
+                                $tweet_text.="%20@Mubiz_".$_SESSION['lang'];
+                                $tweet_text.="%20".ROOT_URL.$_SERVER["REDIRECT_URL"];
+                            ?>
+                            <a href="https://twitter.com/intent/tweet?text=<?=$tweet_text?>" data-size="large" rel="nofollow" target="_blanck">
+                                <div class="link share_button twitter_share_button float-right">
+                                    <img src="/img/social/twitter-square.png" alt="twitter"/> Partager
+                                </div>
+                            </a>
+                        </div>
+                        <div class="share_button">
+                            <a href="https://www.facebook.com/sharer/sharer.php?app_id=1261950717171137&sdk=joey&u=<?=ROOT_URL.$_SERVER["REDIRECT_URL"]?>&display=popup&ref=plugin&src=share_button" data-size="large" rel="nofollow" target="_blanck">
+                                <div class="link share_button facebook_share_button float-right">
+                                    <img src="/img/social/facebook-square.png" alt="facebook"/> Partager
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <div class="container">
         <div class="row">
@@ -53,7 +99,23 @@
                     <p>
                         ...
                     </p>
-                    <hr>
+                    <hr/>
+                    <div class="about_author">
+                        <h3>A propos de l'auteur</h3>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img src="/img/team/albin-cauderlier.png" alt="Albin CAUDERLIER"/>
+                                <a href="http://www.plferrer.photos/" alt="Pierre-Louis FERRER">&copy; Pierre-Louis FERRER</a>
+                            </div>
+                            <div class="col-md-9">
+                                <p>
+                                    <strong>Fondateur de <a href="https://fr.mubiz.com" title="Mubiz">Mubiz</a></strong><br/>
+                                    <?=TEAM_ALBIN_CAUDERLIER_PRESENTATION?>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr/>
                 </div>
             </div>
         </div>
@@ -65,12 +127,12 @@
                 <a href="/0/">
                     <button type="button" class="btn btn-info float-left">
                         <i class="fa fa-arrow-circle-left" aria-hidden="true"></i>
-                        De la théorie à la pratique
+                        <?=ARTICLE_0_TITLE?>
                     </button>
                 </a>
                 <a href="/2/">
                     <button type="button" class="btn btn-info float-right">
-                        2. Installer un porte-feuille mobile
+                        2. <?=ARTICLE_2_TITLE?>
                         <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
                     </button>
                 </a>

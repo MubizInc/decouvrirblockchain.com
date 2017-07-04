@@ -1,32 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?=$_SESSION['lang']?>">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <?php
+        include_once(ROOT_PATH."/pages/common/head.php");
+        include_once(ROOT_PATH."/pages/3/head.php");
 
-    <title>Découvrir Blockchain</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Theme CSS -->
-    <link href="/css/clean-blog.min.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+        // SOCIAL
+        $shared_url = "http://".COOKIE_URL.$_SERVER["REDIRECT_URL"];
+    ?>
 </head>
 <body>
     <!-- Navigation -->
@@ -36,50 +17,128 @@
 
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" style="background-image: url('/img/start.jpg')">
+    <header class="intro-header" style="background-image: url('<?=ARTICLE_3_PICTURE?>')">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="col-lg-12 col-md-12">
                     <div class="post-heading">
-                        <h1>Introduction : De la théorie à la pratique</h1>
-                        <h2 class="subheading">Problems look mighty small from 150 miles up</h2>
-                        <span class="meta">Publié par <a href="/about/">Albin CAUDERLIER</a> le 30/06/2017</span>
+                        <h1><?=ARTICLE_3_TITLE?></h1>
+                        <h2 class="subheading"><?=ARTICLE_3_SUBTITLE?></h2>
+                        <span class="meta">Publié par <a href="/about/"><?=ARTICLE_3_AUTHOR?></a> le <?=ARTICLE_3_PUBLISHED_DATE?></span>
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="col-md-8 crumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+                        <li class="first" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                            <a itemprop="item" href="/" title="DecouvrirBlockchain">
+                                <span itemprop="name"><i class="fa fa-home"></i> <?=SITE_NAME?></span>
+                            </a>
+                            <meta itemprop="position" content="1"/>
+                        </li>
+                        <li class="last" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                            <a itemprop="item" title="<?=ARTICLE_3_TITLE?>">
+                                <span itemprop="name"><?=ARTICLE_3_TITLE?></span>
+                            </a>
+                            <meta itemprop="position" content="2"/>
+                        </li>
+                    </ul>
+                    <div class="col-md-4" id="vendor_share_buttons">
+                        <div class="share_button">
+                            <?php 
+                                $tweet_text="";
+                                
+                                if(!empty($store_presentation['name'])) $tweet_text=$store_presentation['name'];
+                                
+                                $tweet_text.="%20@Mubiz_".$_SESSION['lang'];
+                                $tweet_text.="%20".ROOT_URL.$_SERVER["REDIRECT_URL"];
+                            ?>
+                            <a href="https://twitter.com/intent/tweet?text=<?=$tweet_text?>" data-size="large" rel="nofollow" target="_blanck">
+                                <div class="link share_button twitter_share_button float-right">
+                                    <img src="/img/social/twitter-square.png" alt="twitter"/> Partager
+                                </div>
+                            </a>
+                        </div>
+                        <div class="share_button">
+                            <a href="https://www.facebook.com/sharer/sharer.php?app_id=1261950717171137&sdk=joey&u=<?=ROOT_URL.$_SERVER["REDIRECT_URL"]?>&display=popup&ref=plugin&src=share_button" data-size="large" rel="nofollow" target="_blanck">
+                                <div class="link share_button facebook_share_button float-right">
+                                    <img src="/img/social/facebook-square.png" alt="facebook"/> Partager
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="jumbotron">
+                    Difficulté : 1/5 - Newby<br/>
+                    Matériel : Un PC / Un compte bancaire / Une pièce d'identité / Une adresse e-mailA <br/>
+                    Durée : 30min<br/>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Post Content -->
     <article>
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <h2 class="section-heading">La force de l'expérience</h2>
+                    <h2 class="section-heading">Création du compte</h2>
                     <p>
-                        "Nous serions 10 fois plus efficace si nous avions une expérience commune des nouvelles technologies." Voilà l'idée qui m'a traversé l'esprit au milieu d'une n-ième conférence ennuyeuse concernant la technologie blockchain.
+                        ...
                     </p>
-                    <p>
-                        Après 3 ans à pratiquer cette technologie, prometteuse de décentralisation, d'égalité, de transparence, d'éternité, d'immuabilité, ... bref, de beaucoup de choses dont notre société à grand besoin, je suis toujours surpris par l'écart de compétence, ... et indirectement d'autorité qui se crée entre les personnes ayant vu et pratiqué, et celles qui ont étudié, parfois en détails, ... sans jamais expérimenter.
-                    </p>
-                    
-                    <p>
-                    Je ne comprends pas bien pourquoi certains cols blancs préfèrent rester loin de l'utilisation réelle. En nouvelle technologie, "Se remonter les manches et mettre les mains dans le cambouis" se limite bien souvent à télécharger quelques applications, saisir quelques données sur un clavier et cliquer sur quelques boutons. Rien de bien salissant. Pourquoi alors cet écart entre ceux qui parlent car ils ont lu, ... et ceux qui parlent parce qu'ils ont fait, essayé, vu, ... ?
-                    </p>
-
-                    <h2 class="section-heading">Faciliter l'accès et guider</h2>
-                    <p>
-                        La réponse est arrivée la semaine dernière lors d'une démonstration. Pour illustrer une idée lors d'une présentation, un directeur que j'ai la chance de côtoyer accepte de télécharger une application et de faire un test avec une transaction. Dès lors, la seule idée qu'il a souhaité développer de cette technologie est son usage pour les micro-paiements. Dans son caractère, c'est comme si cette simple expérience avait remplacé les dizaines d'articles qu'il a lu sur le sujet depuis un an.
-                    </p>
-                    <p>
-                        Ce constat a déclenché la création de "découvrirblockchain.com". Ce site a vocation a faciliter le passage à la pratique, sans jamais demander de compétence technique.
-                    </p>
+                    <hr/>
+                    <div class="about_author">
+                        <h3>A propos de l'auteur</h3>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img src="/img/team/albin-cauderlier.png" alt="Albin CAUDERLIER"/>
+                                <a href="http://www.plferrer.photos/" alt="Pierre-Louis FERRER">&copy; Pierre-Louis FERRER</a>
+                            </div>
+                            <div class="col-md-9">
+                                <p>
+                                    <strong>Fondateur de <a href="https://fr.mubiz.com" title="Mubiz">Mubiz</a></strong><br/>
+                                    <?=TEAM_ALBIN_CAUDERLIER_PRESENTATION?>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr/>
                 </div>
             </div>
         </div>
     </article>
 
-    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <a href="/2/">
+                    <button type="button" class="btn btn-info float-left">
+                        <i class="fa fa-arrow-circle-left" aria-hidden="true"></i>
+                        2. <?=ARTICLE_2_TITLE?>
+                    </button>
+                </a>
+                <a href="/4/">
+                    <button type="button" class="btn btn-info float-right">
+                        4. <?=ARTICLE_4_TITLE?>
+                        <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
 
     <!-- Footer -->
     <?php

@@ -1,13 +1,9 @@
 <!DOCTYPE html>
 <html lang="<?=$_SESSION['lang']?>">
 <head>
-    <title>Decouvrir Blockchain</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="keyword" content="">
-
     <?php
         include_once(ROOT_PATH."/pages/common/head.php");
+        include_once(ROOT_PATH."/pages/home/head.php");
     ?>
 </head>
 <body>
@@ -23,9 +19,9 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="site-heading">
-                        <h1>Découvrir Blockchain</h1>
+                        <h1><?=SITE_NAME?></h1>
                         <hr class="small">
-                        <span class="subheading">Vous donner envie d'essayer</span>
+                        <span class="subheading"><?=HOMEPAGE_PITCH?></span>
                     </div>
                 </div>
             </div>
@@ -207,7 +203,7 @@
                                 9. <?=ARTICLE_9_TITLE?>
                             </h2>
                             <h3 class="post-subtitle">
-                                 <?=ARTICLE_9_TITLE?>
+                                 <?=ARTICLE_9_SUBTITLE?>
                             </h3>
                         </a>
                         <span class="badge badge-pill badge-default">Ethereum</span> <span class="badge badge-pill badge-default">Développeurs</span>
@@ -219,34 +215,34 @@
                     <div class="col-md-9">
                         <a href="/10/">
                             <h2 class="post-title">
-                                10. Préserver son identité
+                                10. <?=ARTICLE_10_TITLE?>
                             </h2>
                             <h3 class="post-subtitle">
-                                 Coinb.in et LightWallet
+                                 <?=ARTICLE_10_SUBTITLE?>
                             </h3>
                         </a>
-                        <p class="post-meta">Publié par <a href="#">Albin CAUDERLIER</a> le 30 septembre 2017</p>
+                        <p class="post-meta">Publié par <a href="#"><?=ARTICLE_10_AUTHOR?></a> le <?=ARTICLE_10_PUBLISHED_DATE?></p>
                     </div>
                     <div class="col-md-3">
-                        <img src="/img/blockchain/hd_wallet.jpg" alt="Mobile Wallet"/>
+                        <img src="<?=ARTICLE_10_PICTURE?>" alt="Mobile Wallet"/>
                     </div>
                 </div>
                 <hr>
                 <div class="post-preview row">
                     <div class="col-md-3">
-                        <img src="/img/blockchain/openbazaar.jpg" alt="Mobile Wallet"/>
+                        <img src="<?=ARTICLE_11_PICTURE?>" alt="Mobile Wallet"/>
                     </div>
                     <div class="col-md-9">
                         <a href="/11/">
                             <h2 class="post-title">
-                                11. Acheter un produit sur une place de marché décentralisée
+                                11. <?=ARTICLE_11_TITLE?>
                             </h2>
                             <h3 class="post-subtitle">
-                                 OpenBazaar, Particl et Mubiz
+                                 <?=ARTICLE_11_SUBTITLE?>
                             </h3>
                         </a>
                         <span class="badge badge-pill badge-success">Commerce</span>
-                        <p class="post-meta">Publié par <a href="#">Albin CAUDERLIER</a> le 30 septembre 2017</p>
+                        <p class="post-meta">Publié par <a href="#"><?=ARTICLE_11_AUTHOR?></a> le <?=ARTICLE_11_PUBLISHED_DATE?></p>
                     </div>
                 </div>
                 <hr>
@@ -254,35 +250,35 @@
                     <div class="col-md-9">
                         <a href="/12/">
                             <h2 class="post-title">
-                                12. Créer ma propre monnaie (altcoin)
+                                12. <?=ARTICLE_12_TITLE?>
                             </h2>
                             <h3 class="post-subtitle">
-                                 Build a coin
+                                <?=ARTICLE_12_SUBTITLE?>
                             </h3>
                         </a>
                         <span class="badge badge-pill badge-success">Développeur</span>
-                        <p class="post-meta">Publié par <a href="#">Albin CAUDERLIER</a> le 30 septembre 2017</p>
+                        <p class="post-meta">Publié par <a href="#"><?=ARTICLE_12_AUTHOR?></a> le <?=ARTICLE_12_PUBLISHED_DATE?></p>
                     </div>
                     <div class="col-md-3">
-                        <img src="/img/bitcoin/crypto-logo.png" alt="Mobile Wallet"/>
+                        <img src="<?=ARTICLE_12_PICTURE?>" alt="Mobile Wallet"/>
                     </div>
                 </div>
                 <hr>
                 <div class="post-preview row">
                     <div class="col-md-3">
-                        <img src="/img/blockchain/mobile-wallet.jpg" alt="Mobile Wallet"/>
+                        <img src="<?=ARTICLE_13_PICTURE?>" alt="Mobile Wallet"/>
                     </div>
                     <div class="col-md-9">
                         <a href="/13/">
                             <h2 class="post-title">
-                                13. 
+                                13. <?=ARTICLE_13_TITLE?>
                             </h2>
                             <h3 class="post-subtitle">
-                                
+                                <?=ARTICLE_13_SUBTITLE?>
                             </h3>
                         </a>
                         <span class="badge badge-pill badge-success">Développeur</span>
-                        <p class="post-meta">Publié par <a href="#">Albin CAUDERLIER</a> le 30 septembre 2017</p>
+                        <p class="post-meta">Publié par <a href="#"><?=ARTICLE_13_AUTHOR?></a> le <?=ARTICLE_13_PUBLISHED_DATE?></p>
                     </div>
                 </div>
                 <hr>
@@ -290,35 +286,35 @@
                     <div class="col-md-9">
                         <a href="/14/">
                             <h2 class="post-title">
-                                14. Lancer une ICO
+                                14. <?=ARTICLE_14_TITLE?>
                             </h2>
                             <h3 class="post-subtitle">
-                                TokenFactory
+                                <?=ARTICLE_14_SUBTITLE?>
                             </h3>
                         </a>
                         <span class="badge badge-pill badge-success">Ethereum</span>
-                        <p class="post-meta">Publié par <a href="#">Albin CAUDERLIER</a> le 30 septembre 2017</p>
+                        <p class="post-meta">Publié par <a href="#"><?=ARTICLE_14_AUTHOR?></a> le <?=ARTICLE_14_PUBLISHED_DATE?></p>
                     </div>
                     <div class="col-md-3">
-                        <img src="/img/blockchain/mobile-dapps.jpg" alt="Mobile Wallet"/>
+                        <img src="<?=ARTICLE_14_PICTURE?>" alt="Mobile Wallet"/>
                     </div>
                 </div>
                 <hr>
                 <div class="post-preview row">
                     <div class="col-md-3">
-                        <img src="/img/blockchain/mobile-wallet.jpg" alt="Mobile Wallet"/>
+                        <img src="<?=ARTICLE_15_PICTURE?>" alt="Mobile Wallet"/>
                     </div>
                     <div class="col-md-9">
                         <a href="/15/">
                             <h2 class="post-title">
-                                15. Outils grand-public de trading en crypto-monnaies
+                                15. <?=ARTICLE_15_TITLE?>
                             </h2>
                             <h3 class="post-subtitle">
-                                CoinMarketCap, CoinCap.io et CryptoWatch et BitcoinWidget (mobile)
+                                <?=ARTICLE_15_SUBTITLE?>
                             </h3>
                         </a>
                         <span class="badge badge-pill badge-success">Trading</span>
-                        <p class="post-meta">Publié par <a href="#">Albin CAUDERLIER</a> le 30 septembre 2017</p>
+                        <p class="post-meta">Publié par <a href="#"><?=ARTICLE_15_AUTHOR?></a> le <?=ARTICLE_15_PUBLISHED_DATE?></p>
                     </div>
                 </div>
                 <hr>
@@ -326,35 +322,35 @@
                     <div class="col-md-9">
                         <a href="/16/">
                             <h2 class="post-title">
-                                16. Outils techniques de trading en crypto-monnaies
+                                16. <?=ARTICLE_16_TITLE?>
                             </h2>
                             <h3 class="post-subtitle">
-                                Postman et liste des API (dont Mubiz, CoinMarketCap, CryptoWatch, BlockStack, ...)
+                                <?=ARTICLE_16_SUBTITLE?>
                             </h3>
                         </a>
                         <span class="badge badge-pill badge-success">Développeurs</span>
-                        <p class="post-meta">Publié par <a href="#">Albin CAUDERLIER</a> le 30 septembre 2017</p>
+                        <p class="post-meta">Publié par <a href="#"><?=ARTICLE_16_AUTHOR?></a> le <?=ARTICLE_16_PUBLISHED_DATE?></p>
                     </div>
                     <div class="col-md-3">
-                        <img src="/img/blockchain/mobile-wallet.jpg" alt="Mobile Wallet"/>
+                        <img src="<?=ARTICLE_16_PICTURE?>" alt="Mobile Wallet"/>
                     </div>
                 </div>
                 <hr>
                 <div class="post-preview row">
                     <div class="col-md-3">
-                        <img src="/img/blockchain/mobile-wallet.jpg" alt="Mobile Wallet"/>
+                        <img src="<?=ARTICLE_17_PICTURE?>" alt="Mobile Wallet"/>
                     </div>
                     <div class="col-md-9">
                         <a href="/17/">
                             <h2 class="post-title">
-                                17. Enregistrer mon identité ou ma marque
+                                17. <?=ARTICLE_17_TITLE?>
                             </h2>
                             <h3 class="post-subtitle">
-                                Onename et BitNation
+                                <?=ARTICLE_17_SUBTITLE?>
                             </h3>
                         </a>
                         <span class="badge badge-pill badge-success">Registre d'Identité</span> <span class="badge badge-pill badge-success">KYC</span> <span class="badge badge-pill badge-success">INPI</span>
-                        <p class="post-meta">Publié par <a href="#">Albin CAUDERLIER</a> le 30 septembre 2017</p>
+                        <p class="post-meta">Publié par <a href="#"><?=ARTICLE_17_AUTHOR?></a> le <?=ARTICLE_17_PUBLISHED_DATE?></p>
                     </div>
                 </div>
                 <hr>
@@ -362,35 +358,35 @@
                     <div class="col-md-9">
                         <a href="/18/">
                             <h2 class="post-title">
-                                18. Indicateurs et suivi de l'évolution de la technologie
+                                18. <?=ARTICLE_18_TITLE?>
                             </h2>
                             <h3 class="post-subtitle">
-                                Principaux baromètres, Google Trends, lien vers taille blockchain, CoinMarketCap, ...
+                                <?=ARTICLE_18_SUBTITLE?>
                             </h3>
                         </a>
                         <span class="badge badge-pill badge-success">Indicateurs</span> <span class="badge badge-pill badge-success">KPI</span>
-                        <p class="post-meta">Publié par <a href="#">Albin CAUDERLIER</a> le 30 septembre 2017</p>
+                        <p class="post-meta">Publié par <a href="#"><?=ARTICLE_18_AUTHOR?></a> le <?=ARTICLE_18_PUBLISHED_DATE?></p>
                     </div>
                     <div class="col-md-3">
-                        <img src="/img/blockchain/mobile-wallet.jpg" alt="Mobile Wallet"/>
+                        <img src="<?=ARTICLE_18_PICTURE?>" alt="Mobile Wallet"/>
                     </div>
                 </div>
                 <hr>
                 <div class="post-preview row">
                     <div class="col-md-3">
-                        <img src="/img/blockchain/augur.png" alt="Mobile Wallet"/>
+                        <img src="<?=ARTICLE_19_PICTURE?>" alt="Mobile Wallet"/>
                     </div>
                     <div class="col-md-9">
                         <a href="/19/">
                             <h2 class="post-title">
-                                19. Faire un pari décentralisé
+                                19. <?=ARTICLE_19_TITLE?>
                             </h2>
                             <h3 class="post-subtitle">
-                                Augur ou Gnosys
+                                <?=ARTICLE_19_SUBTITLE?>
                             </h3>
                         </a>
                         <span class="badge badge-pill badge-success">Assurance</span> <span class="badge badge-pill badge-success">Paris</span>
-                        <p class="post-meta">Publié par <a href="#">Albin CAUDERLIER</a> le 30 septembre 2017</p>
+                        <p class="post-meta">Publié par <a href="#"><?=ARTICLE_19_AUTHOR?></a> le <?=ARTICLE_19_PUBLISHED_DATE?></p>
                     </div>
                 </div>
                 <hr>
@@ -398,35 +394,35 @@
                     <div class="col-md-9">
                         <a href="/20/">
                             <h2 class="post-title">
-                                20. Suivre les ICO (mais de loin...)
+                                20. <?=ARTICLE_20_TITLE?>
                             </h2>
                             <h3 class="post-subtitle">
-                                ICO List et ICO Stat
+                                <?=ARTICLE_20_SUBTITLE?>
                             </h3>
                         </a>
                         <span class="badge badge-pill badge-success">Investissement</span>
-                        <p class="post-meta">Publié par <a href="#">Albin CAUDERLIER</a> le 30 septembre 2017</p>
+                        <p class="post-meta">Publié par <a href="#"><?=ARTICLE_20_AUTHOR?></a> le <?=ARTICLE_20_PUBLISHED_DATE?></p>
                     </div>
                     <div class="col-md-3">
-                        <img src="/img/blockchain/mobile-wallet.jpg" alt="Mobile Wallet"/>
+                        <img src="<?=ARTICLE_20_PICTURE?>" alt="Mobile Wallet"/>
                     </div>
                 </div>
                 <hr>
                 <div class="post-preview row">
                     <div class="col-md-3">
-                        <img src="/img/blockchain/mobile-wallet.jpg" alt="Mobile Wallet"/>
+                        <img src="<?=ARTICLE_21_PICTURE?>" alt="Mobile Wallet"/>
                     </div>
                     <div class="col-md-9">
                         <a href="/post/">
                             <h2 class="post-title">
-                                21. Tokenisation, inventaire et traçabilité avec les ColoredCoins
+                                21. <?=ARTICLE_21_TITLE?>
                             </h2>
                             <h3 class="post-subtitle">
-                                CoPay, CoinPris, Colu, ... et les ERC#20
+                                <?=ARTICLE_21_SUBTITLE?>
                             </h3>
                         </a>
                         <span class="badge badge-pill badge-success">Logistique</span>
-                        <p class="post-meta">Publié par <a href="#">Albin CAUDERLIER</a> le 30 septembre 2017</p>
+                        <p class="post-meta">Publié par <a href="#"><?=ARTICLE_21_AUTHOR?></a> le <?=ARTICLE_21_PUBLISHED_DATE?></p>
                     </div>
                 </div>
                 <hr>
@@ -434,38 +430,37 @@
                     <div class="col-md-9">
                         <a href="/post/">
                             <h2 class="post-title">
-                                22. Fidélité et billeterie avec les ColoredCoins
+                                22. <?=ARTICLE_22_TITLE?>
                             </h2>
                             <h3 class="post-subtitle">
-                                CoPay, CoinPris, Colu, Czam ... et les ERC#20
+                                <?=ARTICLE_22_SUBTITLE?>
                             </h3>
                         </a>
                         <span class="badge badge-pill badge-success">Commerce</span> <span class="badge badge-pill badge-success">Billeterie</span>
-                        <p class="post-meta">Publié par <a href="#">Albin CAUDERLIER</a> le 30 septembre 2017</p>
+                        <p class="post-meta">Publié par <a href="#"><?=ARTICLE_22_AUTHOR?></a> le <?=ARTICLE_22_PUBLISHED_DATE?></p>
                     </div>
                     <div class="col-md-3">
-                        <img src="/img/blockchain/mobile-wallet.jpg" alt="Mobile Wallet"/>
+                        <img src="<?=ARTICLE_22_PICTURE?>" alt="Mobile Wallet"/>
                     </div>
                 </div>
                 <hr>
                 <div class="post-preview row">
                     <div class="col-md-3">
-                        <img src="/img/blockchain/mobile-wallet.jpg" alt="Mobile Wallet"/>
+                        <img src="<?=ARTICLE_23_PICTURE?>" alt="Mobile Wallet"/>
                     </div>
                     <div class="col-md-9">
                         <a href="/post/">
                             <h2 class="post-title">
-                                23. Créer une adresse personnalisée
+                                23. <?=ARTICLE_23_TITLE?>
                             </h2>
                             <h3 class="post-subtitle">
-                                Vanity
+                                <?=ARTICLE_23_SUBTITLE?>
                             </h3>
                         </a>
                         <span class="badge badge-pill badge-success">Logistique</span>
-                        <p class="post-meta">Publié par <a href="#">Albin CAUDERLIER</a> le 30 septembre 2017</p>
+                        <p class="post-meta">Publié par <a href="#"><?=ARTICLE_23_AUTHOR?></a> le <?=ARTICLE_23_PUBLISHED_DATE?></p>
                     </div>
                 </div>
-                <hr>
                 <!-- Pager -->
                 <!--       
                 <hr>

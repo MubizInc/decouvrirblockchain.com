@@ -4,6 +4,8 @@
 // ---------------------------------
 define("BACK_TO_TOP_LINK","Retour en haut");
 
+define("SITE_NAME","DécouvrirBlockchain");
+
 
 // ---------------------------------
 //            HEADER
@@ -104,9 +106,9 @@ define("CONTACT_CONTACT_US_TITLE","Nous contacter");
 // ----------------------------------
 //              ERRORPAGE
 // ----------------------------------
-define("ERROR_TITLE","Mubiz | ?");
-define("ERROR_DESCRIPTION","Mubiz, page d'erreur 404");
-define("ERROR_KEYWORDS","Mubiz, Bitcoin, erreur 404, page inexistante");
+define("ERROR_TITLE","Découvrir Blockchain | ?");
+define("ERROR_DESCRIPTION","Découvrir Blockchain, page d'erreur 404");
+define("ERROR_KEYWORDS","Découvrir, Blockchain, Bitcoin, erreur 404, page inexistante");
 
 define("ERROR_MAIN_TITLE","Désolé, la page que vous demandez n'existe pas.");
 define("ERROR_404_MESSAGE","");
@@ -119,25 +121,19 @@ define("ERROR_UNVALID_AMOUNT_MESSAGE","Le montant indiqué est invalide.");
 // ----------------------------------
 //              HOME
 // ----------------------------------
-define("HOMEPAGE_TITLE","Mubiz - Et vous ? Que vendez-vous ?");
-define("HOMEPAGE_DESCRIPTION","Mubiz est une plateforme d'achats et de ventes de produits sans intermédiaire.");
-define("HOMEPAGE_KEYWORDS","Mubiz, Bitcoin, OpenBazaar, entre particuliers, financement participatif, cagnottes, projets, paiement");
+define("HOMEPAGE_TITLE","Découvrir la technologie blockchain en la pratique simplement");
+define("HOMEPAGE_DESCRIPTION","Tutoriaux de découverte de la technologie blockchain, sans compétence technique.");
+define("HOMEPAGE_KEYWORDS","Blockchain, découvrir, découverte, bitcoin, OpenBazaar, entre particuliers, décentralisé, projets, paiement");
 
-define("HOMEPAGE_PITCH","Et vous ? Que vendez-vous ?");
-define("HOMEPAGE_PROMESSE","Mubiz facilite les interactions entre vos besoins et les offres disponibles, pour une économie entre particuliers.");
-
-define("SELL_ON_MUBIZ_TITLE","Vendre mes produits");
-
-define("HOMEPAGE_SEE_MORE","En savoir plus");
-
+define("HOMEPAGE_PITCH","Vous donner envie d'essayer");
 
 
 // ----------------------------------
 //              LEGAL
 // ----------------------------------
 define("LEGAL_TITLE","Mentions légales");
-define("LEGAL_DESCRIPTION","Mentions légales de Mubiz.");
-define("LEGAL_KEYWORDS","Mubiz, Bitcoin, financement participatif, paiement, mentions légales");
+define("LEGAL_DESCRIPTION","Mentions légales de Découvrir Blockchain");
+define("LEGAL_KEYWORDS","Blockchain, découvrir, Bitcoin, paiement, mentions légales");
 
 define("LEGAL_MAIN_TITLE","Mentions légales");
 define("LEGAL_PUBLICATION_TITLE","Propriétaire et éditeur du site");
@@ -248,7 +244,7 @@ define("PRESS_MUBIZ_WALLPAPER_TITLE","Fonds d'écrans");
 // ----------------------------------
 define("TEAM_TITLE","Equipe");
 define("TEAM_DESCRIPTION","Présentation des membres de l'équipe de Mubiz");
-define("TEAM_KEYWORDS","Mubiz, Bitcoin, Equipe");
+define("TEAM_KEYWORDS","Decouvrir, Blockchain, Bitcoin, Equipe");
 
 define("TEAM_EMPROVEMENT_TITLE","Equipe");
 
@@ -257,11 +253,11 @@ define("TEAM_DIEGO_GARCIA_TITLE","Lead Developpeur");
 define("TEAM_THOMAS_ZOUGHEBI_TITLE","Développeur Solidity");
 define("TEAM_ALBIN_CAUDERLIER_TITLE","Fondateur");
 define("TEAM_CLAIRE_BIDET_TITLE","Graphiste");
-/*
-define("TEAM_ALBIN_CAUDERLIER_PRESENTATION","ENSICAEN (Ingénieur Informatique Monétique - 2010) et IAE de CAEN (Master d'Administration des Entreprises - 2010)<br/>
+
+define("TEAM_ALBIN_CAUDERLIER_PRESENTATION","ENSICAEN (Informatique Monétique) et IAE de CAEN (Master d'Administration des Entreprises) - 2010<br/>
 											Albin débute à Blois en tant qu'Ingénieur Technico-Commercial pour la plateforme de paiement en ligne d'Atos Worldline, Sips.
-											Il rejoint Paris en 2012 et réalise des études pour Galitt. Depuis 2013, il participe à des projets innovants du domaine des paiements et développe l'activité d'E-mProvement.");
-*/
+											Il rejoint Paris en 2012 et participe à des projets innovants du domaine des paiements chez BNP Paribas. Albin découvrir bitcoin en 2014 et devient consultant indépendant. En 2016, Albin lance Mubiz, la première passerelle d'achat de produits du réseau OpenBazaar. Mubiz continue depuis de développer ses activités de <a href='https://fr.mubiz.com/institute' title='Formations spécialisée en technologie blockchain'>formations</a> et <a href='https://fr.mubiz.com/consulting' title='Conseil spécialisé en technologie blockchain'>consulting</a>.");
+
 
 
 
@@ -273,7 +269,7 @@ define("TEAM_ALBIN_CAUDERLIER_PRESENTATION","ENSICAEN (Ingénieur Informatique M
 define("ARTICLE_0_TITLE","De la théorie à la pratique");
 define("ARTICLE_0_SUBTITLE","Sans compétence technique, découvrir cette technologie en la pratiquant.");
 define("ARTICLE_0_DESCRIPTION","");
-define("ARTICLE_0_KEYWORDS","");
+define("ARTICLE_0_KEYWORDS","Blockchain, découvrir, théorie, pratique");
 define("ARTICLE_0_AUTHOR","Albin CAUDERLIER");
 define("ARTICLE_0_PUBLISHED_DATE","30 septembre 2017");
 define("ARTICLE_0_PICTURE","/img/background/start.jpg");
@@ -388,175 +384,171 @@ define("ARTICLE_9_PICTURE","/img/blockchain/developers.jpg");
 
 
 // ----------------------------------
-//              ARTICLE 2
+//              ARTICLE 10
 // ----------------------------------
-define("ARTICLE_2_TITLE","");
-define("ARTICLE_2_SUBTITLE","");
-define("ARTICLE_2_DESCRIPTION","");
-define("ARTICLE_2_KEYWORDS","");
-define("ARTICLE_2_AUTHOR","Albin CAUDERLIER");
-define("ARTICLE_2_PUBLISHED_DATE","30 septembre 2017");
-define("ARTICLE_2_PICTURE","");
-
-
-// ----------------------------------
-//              ARTICLE 2
-// ----------------------------------
-define("ARTICLE_2_TITLE","");
-define("ARTICLE_2_SUBTITLE","");
-define("ARTICLE_2_DESCRIPTION","");
-define("ARTICLE_2_KEYWORDS","");
-define("ARTICLE_2_AUTHOR","Albin CAUDERLIER");
-define("ARTICLE_2_PUBLISHED_DATE","30 septembre 2017");
-define("ARTICLE_2_PICTURE","");
+define("ARTICLE_10_TITLE","Préserver son identité");
+define("ARTICLE_10_SUBTITLE","Coinb.in et LightWallet");
+define("ARTICLE_10_DESCRIPTION","");
+define("ARTICLE_10_KEYWORDS","");
+define("ARTICLE_10_AUTHOR","Albin CAUDERLIER");
+define("ARTICLE_10_PUBLISHED_DATE","30 septembre 2017");
+define("ARTICLE_10_PICTURE","/img/blockchain/hd_wallet.jpg");
 
 
 // ----------------------------------
-//              ARTICLE 2
+//              ARTICLE 11
 // ----------------------------------
-define("ARTICLE_2_TITLE","");
-define("ARTICLE_2_SUBTITLE","");
-define("ARTICLE_2_DESCRIPTION","");
-define("ARTICLE_2_KEYWORDS","");
-define("ARTICLE_2_AUTHOR","Albin CAUDERLIER");
-define("ARTICLE_2_PUBLISHED_DATE","30 septembre 2017");
-define("ARTICLE_2_PICTURE","");
-
-
-// ----------------------------------
-//              ARTICLE 2
-// ----------------------------------
-define("ARTICLE_2_TITLE","");
-define("ARTICLE_2_SUBTITLE","");
-define("ARTICLE_2_DESCRIPTION","");
-define("ARTICLE_2_KEYWORDS","");
-define("ARTICLE_2_AUTHOR","Albin CAUDERLIER");
-define("ARTICLE_2_PUBLISHED_DATE","30 septembre 2017");
-define("ARTICLE_2_PICTURE","");
+define("ARTICLE_11_TITLE","Acheter un produit sur une place de marché décentralisée");
+define("ARTICLE_11_SUBTITLE","OpenBazaar, Particl et Mubiz");
+define("ARTICLE_11_DESCRIPTION","");
+define("ARTICLE_11_KEYWORDS","");
+define("ARTICLE_11_AUTHOR","Albin CAUDERLIER");
+define("ARTICLE_11_PUBLISHED_DATE","30 septembre 2017");
+define("ARTICLE_11_PICTURE","/img/blockchain/openbazaar.jpg");
 
 
 // ----------------------------------
-//              ARTICLE 2
+//              ARTICLE 12
 // ----------------------------------
-define("ARTICLE_2_TITLE","");
-define("ARTICLE_2_SUBTITLE","");
-define("ARTICLE_2_DESCRIPTION","");
-define("ARTICLE_2_KEYWORDS","");
-define("ARTICLE_2_AUTHOR","Albin CAUDERLIER");
-define("ARTICLE_2_PUBLISHED_DATE","30 septembre 2017");
-define("ARTICLE_2_PICTURE","");
-
-
-// ----------------------------------
-//              ARTICLE 2
-// ----------------------------------
-define("ARTICLE_2_TITLE","");
-define("ARTICLE_2_SUBTITLE","");
-define("ARTICLE_2_DESCRIPTION","");
-define("ARTICLE_2_KEYWORDS","");
-define("ARTICLE_2_AUTHOR","Albin CAUDERLIER");
-define("ARTICLE_2_PUBLISHED_DATE","30 septembre 2017");
-define("ARTICLE_2_PICTURE","");
+define("ARTICLE_12_TITLE","Créer ma propre monnaie (altcoin)");
+define("ARTICLE_12_SUBTITLE","Build a coin");
+define("ARTICLE_12_DESCRIPTION","");
+define("ARTICLE_12_KEYWORDS","");
+define("ARTICLE_12_AUTHOR","Albin CAUDERLIER");
+define("ARTICLE_12_PUBLISHED_DATE","30 septembre 2017");
+define("ARTICLE_12_PICTURE","/img/bitcoin/crypto-logo.png");
 
 
 // ----------------------------------
-//              ARTICLE 2
+//              ARTICLE 13
 // ----------------------------------
-define("ARTICLE_2_TITLE","");
-define("ARTICLE_2_SUBTITLE","");
-define("ARTICLE_2_DESCRIPTION","");
-define("ARTICLE_2_KEYWORDS","");
-define("ARTICLE_2_AUTHOR","Albin CAUDERLIER");
-define("ARTICLE_2_PUBLISHED_DATE","30 septembre 2017");
-define("ARTICLE_2_PICTURE","");
-
-
-// ----------------------------------
-//              ARTICLE 2
-// ----------------------------------
-define("ARTICLE_2_TITLE","");
-define("ARTICLE_2_SUBTITLE","");
-define("ARTICLE_2_DESCRIPTION","");
-define("ARTICLE_2_KEYWORDS","");
-define("ARTICLE_2_AUTHOR","Albin CAUDERLIER");
-define("ARTICLE_2_PUBLISHED_DATE","30 septembre 2017");
-define("ARTICLE_2_PICTURE","");
+define("ARTICLE_13_TITLE","");
+define("ARTICLE_13_SUBTITLE","");
+define("ARTICLE_13_DESCRIPTION","");
+define("ARTICLE_13_KEYWORDS","");
+define("ARTICLE_13_AUTHOR","Albin CAUDERLIER");
+define("ARTICLE_13_PUBLISHED_DATE","30 septembre 2017");
+define("ARTICLE_13_PICTURE","/img/blockchain/mobile-wallet.jpg");
 
 
 // ----------------------------------
-//              ARTICLE 2
+//              ARTICLE 14
 // ----------------------------------
-define("ARTICLE_2_TITLE","");
-define("ARTICLE_2_SUBTITLE","");
-define("ARTICLE_2_DESCRIPTION","");
-define("ARTICLE_2_KEYWORDS","");
-define("ARTICLE_2_AUTHOR","Albin CAUDERLIER");
-define("ARTICLE_2_PUBLISHED_DATE","30 septembre 2017");
-define("ARTICLE_2_PICTURE","");
-
-
-// ----------------------------------
-//              ARTICLE 2
-// ----------------------------------
-define("ARTICLE_2_TITLE","");
-define("ARTICLE_2_SUBTITLE","");
-define("ARTICLE_2_DESCRIPTION","");
-define("ARTICLE_2_KEYWORDS","");
-define("ARTICLE_2_AUTHOR","Albin CAUDERLIER");
-define("ARTICLE_2_PUBLISHED_DATE","30 septembre 2017");
-define("ARTICLE_2_PICTURE","");
+define("ARTICLE_14_TITLE","Lancer une ICO");
+define("ARTICLE_14_SUBTITLE","TokenFactory");
+define("ARTICLE_14_DESCRIPTION","");
+define("ARTICLE_14_KEYWORDS","");
+define("ARTICLE_14_AUTHOR","Albin CAUDERLIER");
+define("ARTICLE_14_PUBLISHED_DATE","30 septembre 2017");
+define("ARTICLE_14_PICTURE","/img/blockchain/mobile-dapps.jpg");
 
 
 // ----------------------------------
-//              ARTICLE 2
+//              ARTICLE 15
 // ----------------------------------
-define("ARTICLE_2_TITLE","");
-define("ARTICLE_2_SUBTITLE","");
-define("ARTICLE_2_DESCRIPTION","");
-define("ARTICLE_2_KEYWORDS","");
-define("ARTICLE_2_AUTHOR","Albin CAUDERLIER");
-define("ARTICLE_2_PUBLISHED_DATE","30 septembre 2017");
-define("ARTICLE_2_PICTURE","");
-
-
-// ----------------------------------
-//              ARTICLE 2
-// ----------------------------------
-define("ARTICLE_2_TITLE","");
-define("ARTICLE_2_SUBTITLE","");
-define("ARTICLE_2_DESCRIPTION","");
-define("ARTICLE_2_KEYWORDS","");
-define("ARTICLE_2_AUTHOR","Albin CAUDERLIER");
-define("ARTICLE_2_PUBLISHED_DATE","30 septembre 2017");
-define("ARTICLE_2_PICTURE","");
+define("ARTICLE_15_TITLE","Outils grand-public de trading en crypto-monnaies");
+define("ARTICLE_15_SUBTITLE","CoinMarketCap, CoinCap.io et CryptoWatch et BitcoinWidget (mobile)");
+define("ARTICLE_15_DESCRIPTION","");
+define("ARTICLE_15_KEYWORDS","");
+define("ARTICLE_15_AUTHOR","Albin CAUDERLIER");
+define("ARTICLE_15_PUBLISHED_DATE","30 septembre 2017");
+define("ARTICLE_15_PICTURE","/img/blockchain/mobile-wallet.jpg");
 
 
 // ----------------------------------
-//              ARTICLE 2
+//              ARTICLE 16
 // ----------------------------------
-define("ARTICLE_2_TITLE","");
-define("ARTICLE_2_SUBTITLE","");
-define("ARTICLE_2_DESCRIPTION","");
-define("ARTICLE_2_KEYWORDS","");
-define("ARTICLE_2_AUTHOR","Albin CAUDERLIER");
-define("ARTICLE_2_PUBLISHED_DATE","30 septembre 2017");
-define("ARTICLE_2_PICTURE","");
+define("ARTICLE_16_TITLE","Outils techniques de trading en crypto-monnaies");
+define("ARTICLE_16_SUBTITLE","Postman et liste des API (dont Mubiz, CoinMarketCap, CryptoWatch, BlockStack, ...)");
+define("ARTICLE_16_DESCRIPTION","");
+define("ARTICLE_16_KEYWORDS","");
+define("ARTICLE_16_AUTHOR","Albin CAUDERLIER");
+define("ARTICLE_16_PUBLISHED_DATE","30 septembre 2017");
+define("ARTICLE_16_PICTURE","/img/blockchain/mobile-wallet.jpg");
 
 
 // ----------------------------------
-//              ARTICLE 2
+//              ARTICLE 17
 // ----------------------------------
-define("ARTICLE_2_TITLE","");
-define("ARTICLE_2_SUBTITLE","");
-define("ARTICLE_2_DESCRIPTION","");
-define("ARTICLE_2_KEYWORDS","");
-define("ARTICLE_2_AUTHOR","Albin CAUDERLIER");
-define("ARTICLE_2_PUBLISHED_DATE","30 septembre 2017");
-define("ARTICLE_2_PICTURE","");
+define("ARTICLE_17_TITLE","Enregistrer mon identité ou ma marque");
+define("ARTICLE_17_SUBTITLE","Onename et BitNation");
+define("ARTICLE_17_DESCRIPTION","");
+define("ARTICLE_17_KEYWORDS","");
+define("ARTICLE_17_AUTHOR","Albin CAUDERLIER");
+define("ARTICLE_17_PUBLISHED_DATE","30 septembre 2017");
+define("ARTICLE_17_PICTURE","/img/blockchain/mobile-wallet.jpg");
 
 
+// ----------------------------------
+//              ARTICLE 18
+// ----------------------------------
+define("ARTICLE_18_TITLE","Indicateurs et suivi de l'évolution de la technologie");
+define("ARTICLE_18_SUBTITLE","Principaux baromètres, Google Trends, lien vers taille blockchain, CoinMarketCap, ...");
+define("ARTICLE_18_DESCRIPTION","");
+define("ARTICLE_18_KEYWORDS","");
+define("ARTICLE_18_AUTHOR","Albin CAUDERLIER");
+define("ARTICLE_18_PUBLISHED_DATE","30 septembre 2017");
+define("ARTICLE_18_PICTURE","/img/blockchain/mobile-wallet.jpg");
 
 
+// ----------------------------------
+//              ARTICLE 19
+// ----------------------------------
+define("ARTICLE_19_TITLE","Faire un pari décentralisé");
+define("ARTICLE_19_SUBTITLE","Augur ou Gnosys");
+define("ARTICLE_19_DESCRIPTION","");
+define("ARTICLE_19_KEYWORDS","");
+define("ARTICLE_19_AUTHOR","Albin CAUDERLIER");
+define("ARTICLE_19_PUBLISHED_DATE","30 septembre 2017");
+define("ARTICLE_19_PICTURE","/img/blockchain/augur.png");
+
+
+// ----------------------------------
+//              ARTICLE 20
+// ----------------------------------
+define("ARTICLE_20_TITLE","Suivre les ICO (mais de loin...)");
+define("ARTICLE_20_SUBTITLE","ICO List et ICO Stat");
+define("ARTICLE_20_DESCRIPTION","");
+define("ARTICLE_20_KEYWORDS","");
+define("ARTICLE_20_AUTHOR","Albin CAUDERLIER");
+define("ARTICLE_20_PUBLISHED_DATE","30 septembre 2017");
+define("ARTICLE_20_PICTURE","/img/blockchain/mobile-wallet.jpg");
+
+
+// ----------------------------------
+//              ARTICLE 21
+// ----------------------------------
+define("ARTICLE_21_TITLE","Tokenisation, inventaire et traçabilité avec les ColoredCoins");
+define("ARTICLE_21_SUBTITLE","CoPay, CoinPris, Colu, ... et les ERC#20");
+define("ARTICLE_21_DESCRIPTION","");
+define("ARTICLE_21_KEYWORDS","");
+define("ARTICLE_21_AUTHOR","Albin CAUDERLIER");
+define("ARTICLE_21_PUBLISHED_DATE","30 septembre 2017");
+define("ARTICLE_21_PICTURE","/img/blockchain/mobile-wallet.jpg");
+
+
+// ----------------------------------
+//              ARTICLE 22
+// ----------------------------------
+define("ARTICLE_22_TITLE","Fidélité et billeterie avec les ColoredCoins");
+define("ARTICLE_22_SUBTITLE","CoPay, CoinPris, Colu, Czam ... et les ERC#20");
+define("ARTICLE_22_DESCRIPTION","");
+define("ARTICLE_22_KEYWORDS","");
+define("ARTICLE_22_AUTHOR","Albin CAUDERLIER");
+define("ARTICLE_22_PUBLISHED_DATE","30 septembre 2017");
+define("ARTICLE_22_PICTURE","/img/blockchain/mobile-wallet.jpg");
+
+
+// ----------------------------------
+//              ARTICLE 23
+// ----------------------------------
+define("ARTICLE_23_TITLE","Créer une adresse personnalisée");
+define("ARTICLE_23_SUBTITLE","Vanity");
+define("ARTICLE_23_DESCRIPTION","");
+define("ARTICLE_23_KEYWORDS","");
+define("ARTICLE_23_AUTHOR","Albin CAUDERLIER");
+define("ARTICLE_23_PUBLISHED_DATE","30 septembre 2017");
+define("ARTICLE_23_PICTURE","/img/blockchain/mobile-wallet.jpg");
 
 
 

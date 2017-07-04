@@ -1,14 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?=$_SESSION['lang']?>">
 <head>
-    <meta name="keywords" content="Blockchain, découvrir, théorie, pratique">
-    <meta name="description" content="">
-    <meta name="author" content="Albin CAUDERLIER">
-
-    <title>Découvrir Blockchain</title>
-
     <?php
         include_once(ROOT_PATH."/pages/common/head.php");
+        include_once(ROOT_PATH."/pages/0/head.php");
 
 		// SOCIAL
 		$shared_url = "http://".COOKIE_URL.$_SERVER["REDIRECT_URL"];
@@ -22,14 +17,14 @@
 
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" style="background-image: url('/img/background/start.jpg')">
+    <header class="intro-header" style="background-image: url('<?=ARTICLE_0_PICTURE?>')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12">
                     <div class="post-heading">
-                        <h1>De la théorie à la pratique</h1>
-                        <h2 class="subheading">Vous donner envie d'essayer</h2>
-                        <span class="meta">Publié par <a href="/about/">Albin CAUDERLIER</a> le 30/06/2017</span>
+                        <h1><?=ARTICLE_0_TITLE?></h1>
+                        <h2 class="subheading"><?=ARTICLE_0_SUBTITLE?></h2>
+                        <span class="meta">Publié par <a href="/about/"><?=ARTICLE_0_AUTHOR?></a> le <?=ARTICLE_0_PUBLISHED_DATE?></span>
                     </div>
                 </div>
             </div>
@@ -37,24 +32,24 @@
     </header>
 
     <section>
-    	<div class="container">
-    		<div class="row">
+		<div class="container">
+			<div class="row">
     			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-					<ul class="col-md-6 crumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+					<ul class="col-md-8 crumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
 						<li class="first" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
 							<a itemprop="item" href="/" title="DecouvrirBlockchain">
-								<span itemprop="name"><i class="fa fa-home"></i> DecouvrirBlockchain</span>
+								<span itemprop="name"><i class="fa fa-home"></i> <?=SITE_NAME?></span>
 							</a>
 							<meta itemprop="position" content="1"/>
 						</li>
 						<li class="last" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-							<a itemprop="item" title="Introduction">
-								<span itemprop="name">Introduction</span>
+							<a itemprop="item" title="<?=ARTICLE_0_TITLE?>">
+								<span itemprop="name"><?=ARTICLE_0_TITLE?></span>
 							</a>
 							<meta itemprop="position" content="2"/>
 						</li>
 					</ul>
-					<div class="col-md-6" id="vendor_share_buttons">
+					<div class="col-md-4" id="vendor_share_buttons">
 						<div class="share_button">
 							<?php 
 								$tweet_text="";
@@ -80,7 +75,7 @@
 					</div>
 				</div>
     		</div>
-    	</div>
+		</div>
     </section>
 
     <!-- Post Content -->
@@ -130,17 +125,25 @@
                         Il est temps de découvrir, voir, tester, explorer, essayer, pratiquer, vivre cette technologie,... et nous espérons que <strong>DecouvrirBlockchain</strong> vous y aidera.
                     </p>
                     <hr/>
-                    <div class="">
+                    <div class="about_author">
 	                    <h3>A propos de l'auteur</h3>
 	                    <div class="row">
-	                    	<div class="col-md-3"></div>
-	                    	<div class="col-md-9"></div>
+	                    	<div class="col-md-3">
+	                    		<img src="/img/team/albin-cauderlier.png" alt="Albin CAUDERLIER"/>
+	                    		<a href="http://www.plferrer.photos/" alt="Pierre-Louis FERRER">&copy; Pierre-Louis FERRER</a>
+	                    	</div>
+	                    	<div class="col-md-9">
+	                    		<p>
+	                    			<strong>Fondateur de <a href="https://fr.mubiz.com" title="Mubiz">Mubiz</a></strong><br/>
+	                    			<?=TEAM_ALBIN_CAUDERLIER_PRESENTATION?>
+	                    		</p>
+	                    	</div>
 	                    </div>
                     </div>
                     <hr/>
 	                <a href="/1/">
 	                    <button type="button" class="btn btn-info float-right">
-	                        1. Acheters des crypto-monnaies (bitcoins, ethers, ...) avec quelques euros
+	                        1. <?=ARTICLE_1_TITLE?>
 	                        <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
 	                    </button>
 	                </a>
@@ -149,21 +152,6 @@
             </div>
         </div>
     </article>
-    
-
-<!--     <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <a href="/1/">
-                    <button type="button" class="btn btn-info float-right">
-                        1. Acheters des crypto-monnaies (bitcoins, ethers, ...) avec quelques euros
-                        <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
-                    </button>
-                </a>
-            </div>
-        </div>
-    </div>
- -->
 
     <!-- Footer -->
     <?php
