@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>DecouvrirBlockchain - A proposbout</title>
+    <title>A propos de DecouvrirBlockchain.com</title>
 
     <?php
         include_once(ROOT_PATH."/pages/common/head.php");
@@ -38,13 +38,17 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <img src="/img/logo/streamer.png" alt="DecouvrirBlockchain"/>
                 <p>
-                    <strong>DecouvrirBlockchain</strong> a pour objectif d'inciter toute personne souhaitant mieux comprendre la technologie blockchain à la tester et la pratiquer. <strong>DecouvrirBlockchain</strong> est un site gratuit, ouvert, porté par l'entreprise <a href="https://mubiz.com" title="Mubiz">Mubiz</a>.
+                    <strong>DecouvrirBlockchain</strong> a pour objectif d'inciter toute personne souhaitant mieux comprendre la technologie blockchain à la tester et la pratiquer. <strong>
+                    DecouvrirBlockchain</strong> est un site gratuit, ouvert, porté par l'entreprise <a href="https://mubiz.com" target="_blank" title="Mubiz">Mubiz</a>.
+                </p>
+                <p>
+                    DecouvrirBlockchain.com est <i class="fa fa-cc"></i> <a target="_blank" rel="nofollow" href="https://creativecommons.org/licenses/by-sa/2.0/fr/">sous licence Creative Commons (CC BY-SA 2.0 FR)</a>
                 </p>
                 <p>
                     Tout rédacteur souhaitant proposer un article peut le transmettre via <a href="/contact" title="Contacter DecouvrirBlockchain">le formulaire de contact</a>.
                 </p>
                 <p>
-                    Pour conserver une expérience utilisateur professionnelle, <strong>DecouvrirBlockchain</strong> n'affiche aucune publicité. Aussi, pour soutenir ce site et permettre son hébergement, vous pouvez faire un don, via la page <a href="/donation" title="Soutenir DecouvrirBlockchain">de soutien</a>.
+                    Pour conserver une expérience utilisateur professionnelle, <strong>DecouvrirBlockchain</strong> n'affiche aucune publicité. Aussi, pour soutenir ce site et permettre son hébergement, vous pouvez faire un don, via la page <a href="https://mubiz.com/about" target="_blank" title="Soutenir DecouvrirBlockchain">de soutien à Mubiz (garant de l'hébergement du site)</a>.
                 </p>
 
             </div>

@@ -4,6 +4,13 @@ body {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.btn {
+  margin: 10px 0;
+  padding: 7px 10px;
+  font-weight: inherit;
+  letter-spacing: inherit;
+}
+
 a:hover {
   color: #5588bb;
 }
@@ -300,17 +307,21 @@ footer {
   background-color: #5588bb;
   color: white;
   font-size: 13px;
-  padding: 10px 0 0 0;
+  padding: 10px 0;
   margin-top: 20px;
 }
 
 footer .container {
-  padding: 5px 0 0 0;
+  padding: 5px 0;
 }
 
 footer .title {
   text-transform: uppercase;
   margin: 0 0 10px 0;
+}
+
+footer h3{
+  margin-top: 0;
 }
 
 footer .footer_link {
@@ -327,10 +338,10 @@ footer a, footer a:visited {
 
 footer a:hover {
   /*text-decoration: none;*/
-  color: #dddddd;
+  color: #eeeeee;
 }
 
 footer .active {
-  color: #5588bb;
+  color: #88bbff;
 }
 

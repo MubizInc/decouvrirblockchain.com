@@ -95,21 +95,22 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <h2 class="section-heading">Création du compte</h2>
+                    <h2 class="section-heading">Où utiliser ses bitcoins/ethers ?</h2>
                     <p>
-                        ...
+                        La liste des e-commerçants acceptant bitcoin s'allonge chaque jour. Une liste de plusieurs centaines de commerçants est maintenue sur <a href="https://bitcoin.fr" title="Blog bitcoin.fr">bitcoin.fr</a>, avec notamment ShowRoomPrive, Dell et Oversotck.
                     </p>
                     <hr/>
                     <div class="about_author">
                         <h3>A propos de l'auteur</h3>
                         <div class="row">
-                            <div class="col-md-3">
+                            <div class="col-xs-4">
                                 <img src="/img/team/albin-cauderlier.png" alt="Albin CAUDERLIER"/>
                                 <a href="http://www.plferrer.photos/" alt="Pierre-Louis FERRER">&copy; Pierre-Louis FERRER</a>
                             </div>
-                            <div class="col-md-9">
+                            <div class="col-xs-8">
                                 <p>
-                                    <strong>Fondateur de <a href="https://fr.mubiz.com" title="Mubiz">Mubiz</a></strong><br/>
+                                    <strong><?=ARTICLE_3_AUTHOR?></strong><br/>
+                                    <i>Fondateur de <a href="https://fr.mubiz.com" title="Mubiz">Mubiz</a></i><br/>
                                     <?=TEAM_ALBIN_CAUDERLIER_PRESENTATION?>
                                 </p>
                             </div>

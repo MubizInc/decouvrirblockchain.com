@@ -2,33 +2,33 @@
 	<nav class="container">
 		<div class="col-md-3">
 			<?php 
-				if($_SESSION['page']==="home"){	echo('	<img alt="'.LOGO_ALT.'" src="/img/logo/decouvrir-blockchain-logo-white.png"/>
+				if($_SESSION['page']==="home"){	echo('	<h3><img alt="'.LOGO_ALT.'" src="/img/logo/decouvrir-blockchain-logo-white.png"/></h3>
 														<div class="footer_link">&copy; '.COMPANY_NAME_SHORT.' 2017</div>');
 				}
 				else{							echo('	<a href="/" title="'.LOGO_TITLE.'"><img alt="'.LOGO_ALT.'" src="/img/logo/decouvrir-blockchain-logo-white.png"/></a>
 														<div class="footer_link">&copy; <a href="/" title="'.COMPANY_NAME_SHORT.'">'.COMPANY_NAME_SHORT.'</a> 2017</div>');
 				}
 			?>
-			<p><i class="fa fa-map-marker color-white"></i> 7 rue de la Cavée, 77500 Chelles - FRANCE</p>
-			<p><i class="fa fa-mobile color-white"></i> +33 6 27 38 32 31</p>
-			<p><i class="fa fa-envelope color-white"></i> contact@decouvrirblockchain.com</p>
+			<p>
+				<i class="fa fa-map-marker color-white"></i> 7 rue de la Cavée, 77500 Chelles - FRANCE<br/>
+				<i class="fa fa-mobile color-white"></i> +33 6 27 38 32 31<br/>
+				<i class="fa fa-envelope color-white"></i> contact@decouvrirblockchain.com
+			</p>
 		</div>
 		<div class="col-md-3">
 			<h3><?=FOOTER_RUBRIQUE_TITLE_1?></h3>
-			<ul class="list-style-none text-gray">
-				<li>
-					<?php 
-						if($_SESSION['page']==="lexique"){	echo('<div class="active">'.FOOTER_ITEM_LEXIQUE.'</div>');}
-						else{								echo('<a href="/lexique" title="'.FOOTER_ITEM_LEXIQUE_TITLE.'">'.FOOTER_ITEM_LEXIQUE.'</a>');}
-					?>
-				</li>
-				<li>
-					<?php 
-						if($_SESSION['page']==="donation"){	echo('<div class="active">Don et Soutien</div>');}
-						else{								echo('<a href="/donation" title="Don">Don et soutien</a>');}
-					?>
-				</li>
-			</ul>
+			<div class="footer_link">
+				<?php 
+					if($_SESSION['page']==="lexique"){	echo('<div class="active">'.FOOTER_ITEM_LEXIQUE.'</div>');}
+					else{								echo('<a href="/lexique" title="'.FOOTER_ITEM_LEXIQUE_TITLE.'">'.FOOTER_ITEM_LEXIQUE.'</a>');}
+				?>
+			</div>
+			<div class="footer_link">
+				<?php 
+					if($_SESSION['page']==="donation"){	echo('<div class="active">Don et Soutien</div>');}
+					else{								echo('<a href="/donation" title="Don">Don et soutien</a>');}
+				?>
+			</div>
 		</div>
 		<div class="col-md-3">
 			<h3><?=FOOTER_RUBRIQUE_TITLE_4?></h3>

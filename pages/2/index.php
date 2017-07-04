@@ -95,21 +95,29 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <h2 class="section-heading">Création du compte</h2>
+                    <h2 class="section-heading">Les stocker sur son téléphone pour les avoir à portée de main</h2>
                     <p>
-                        ...
+                        Pour utiliser facilement vos bitcoins (pour un achat ou un envoi), la meilleure solution consiste à installer une application mobile. Celle de blockchain.info est disponible sur Android et sur Apple.
+                    </p>
+                    <p>
+                        Vos bitcoins ne sont pas directement stockés dans votre smartphone. Ils sont dans les coffres de blockchain.info, et accessibles par votre application mobile.
+
+                        Après l'installation et l'inscription, l'onglet "Recevoir" de l'application vous indique l'adresse bitcoin (34 caractères) qui a été gérée pour vous par ce service. Cette adresse est à indiquer dans l'interface "Envoyer" de Paymium, afin qu'une transaction soit émise vers votre mobile. Vous recevrez une notification par e-mail dès que la transaction aura été réalisée.
+
+                        A nouveau, vous pouvez transférer vos bitcoins sur la plateforme de Paymium, pour recréditer votre compte si vous le souhaitez.
                     </p>
                     <hr/>
                     <div class="about_author">
                         <h3>A propos de l'auteur</h3>
                         <div class="row">
-                            <div class="col-md-3">
+                            <div class="col-xs-4">
                                 <img src="/img/team/albin-cauderlier.png" alt="Albin CAUDERLIER"/>
                                 <a href="http://www.plferrer.photos/" alt="Pierre-Louis FERRER">&copy; Pierre-Louis FERRER</a>
                             </div>
-                            <div class="col-md-9">
+                            <div class="col-xs-8">
                                 <p>
-                                    <strong>Fondateur de <a href="https://fr.mubiz.com" title="Mubiz">Mubiz</a></strong><br/>
+                                    <strong><?=ARTICLE_2_AUTHOR?></strong><br/>
+                                    <i>Fondateur de <a href="https://fr.mubiz.com" title="Mubiz">Mubiz</a></i><br/>
                                     <?=TEAM_ALBIN_CAUDERLIER_PRESENTATION?>
                                 </p>
                             </div>

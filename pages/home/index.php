@@ -413,7 +413,7 @@
                         <img src="<?=ARTICLE_21_PICTURE?>" alt="Mobile Wallet"/>
                     </div>
                     <div class="col-md-9">
-                        <a href="/post/">
+                        <a href="/21/">
                             <h2 class="post-title">
                                 21. <?=ARTICLE_21_TITLE?>
                             </h2>
@@ -428,7 +428,7 @@
                 <hr>
                 <div class="post-preview row">
                     <div class="col-md-9">
-                        <a href="/post/">
+                        <a href="/22/">
                             <h2 class="post-title">
                                 22. <?=ARTICLE_22_TITLE?>
                             </h2>
@@ -449,7 +449,7 @@
                         <img src="<?=ARTICLE_23_PICTURE?>" alt="Mobile Wallet"/>
                     </div>
                     <div class="col-md-9">
-                        <a href="/post/">
+                        <a href="/23/">
                             <h2 class="post-title">
                                 23. <?=ARTICLE_23_TITLE?>
                             </h2>

@@ -32,7 +32,7 @@ define("FOOTER_RUBRIQUE_TITLE_7","Langues");
 
 /* *********  ENTERPRISE ***************/
 define("FOOTER_ITEM_ABOUT","A propos");
-define("FOOTER_ITEM_ABOUT_TITLE","A propos de Mubiz");
+define("FOOTER_ITEM_ABOUT_TITLE","A propos de DécouvrirBlockchain");
 
 define("FOOTER_ITEM_CONTACT","Contact");
 define("FOOTER_ITEM_CONTACT_TITLE","Nous contacter");
@@ -41,35 +41,35 @@ define("FOOTER_ITEM_PRESS","Presse");
 define("FOOTER_ITEM_PRESS_TITLE","Espace presse");
 
 define("FOOTER_ITEM_TEAM","Equipe");
-define("FOOTER_ITEM_TEAM_TITLE","Membres de l'équipe de Mubiz");
+define("FOOTER_ITEM_TEAM_TITLE","Membres de l'équipe de DécouvrirBlockchain");
 
 define("FOOTER_ITEM_CAREERS","Carrières");
-define("FOOTER_ITEM_CAREERS_TITLE","Mubiz recrute. Rejoignez nous !");
+define("FOOTER_ITEM_CAREERS_TITLE","DécouvrirBlockchain recrute. Rejoignez nous !");
 
 /* *********  LEGAL ***************/
 define("LEGAL_INFORMATION","Mentions légales");
-define("LEGAL_INFORMATION_TITLE","Mentions légales de Mubiz");
+define("LEGAL_INFORMATION_TITLE","Mentions légales de DécouvrirBlockchain");
 
 define("PRIVACY_INFORMATION","Confidentialité");
-define("PRIVACY_INFORMATION_TITLE","Prenez connaissance des méthodes de Mubiz pour le respect de la vie privée");
+define("PRIVACY_INFORMATION_TITLE","Prenez connaissance des méthodes de DécouvrirBlockchain pour le respect de la vie privée");
 
 define("POLICIES_INFORMATION","Conditions Générales");
 define("POLICIES_INFORMATION_TITLE","Conditions Générales d'Utilisation et Conditions Générales de Vente");
 
 define("COOKIES_INFORMATION","Cookies");
-define("COOKIES_INFORMATION_TITLE","A propose des cookies et de Mubiz");
+define("COOKIES_INFORMATION_TITLE","A propose des cookies et de DécouvrirBlockchain");
 
 /* *********  SOCIAL ***************/
-define("FACEBOOK_MUBIZ_TITLE","Mubiz sur Facebook");
-define("FACEBOOK_MUBIZ_URL","https://www.facebook.com/MubizInc");
+define("FACEBOOK_MUBIZ_TITLE","DécouvrirBlockchain sur Facebook");
+define("FACEBOOK_MUBIZ_URL","https://www.facebook.com/DécouvrirBlockchainInc");
 
-define("TWITTER_MUBIZ_TITLE","Mubiz sur Twitter");
-define("TWITTER_MUBIZ_URL","https://twitter.com/Mubiz_fr");
+define("TWITTER_MUBIZ_TITLE","DécouvrirBlockchain sur Twitter");
+define("TWITTER_MUBIZ_URL","https://twitter.com/DécouvrirBlockchain_fr");
 
-define("LINKEDIN_MUBIZ_TITLE","Mubiz sur LinkedIn");
+define("LINKEDIN_MUBIZ_TITLE","DécouvrirBlockchain sur LinkedIn");
 define("LINKEDIN_MUBIZ_URL","https://www.linkedin.com/company/mubiz");
 
-define("PINTEREST_MUBIZ_TITLE","Mubiz sur Pinterest");
+define("PINTEREST_MUBIZ_TITLE","DécouvrirBlockchain sur Pinterest");
 define("PINTEREST_MUBIZ_URL","http://www.pinterest.com/mubizcom/");
 
 
@@ -80,10 +80,10 @@ define("PINTEREST_MUBIZ_URL","http://www.pinterest.com/mubizcom/");
 //              ABOUT
 // ----------------------------------
 define("ABOUT_TITLE","A propos");
-define("ABOUT_DESCRIPTION","A propos de Mubiz, service pour une économie entre particuliers");
-define("ABOUT_KEYWORDS","Mubiz, Bitcoin, A propos, entre particuliers");
+define("ABOUT_DESCRIPTION","A propos de DécouvrirBlockchain, service pour une économie entre particuliers");
+define("ABOUT_KEYWORDS","DécouvrirBlockchain, Bitcoin, A propos, entre particuliers");
 
-define("ABOUT_MAIN_TITLE","A propos de Mubiz");
+define("ABOUT_MAIN_TITLE","A propos de DécouvrirBlockchain");
 
 
 
@@ -93,8 +93,8 @@ define("ABOUT_MAIN_TITLE","A propos de Mubiz");
 // ----------------------------------
 // TODO - Mettre une partie des libellés dans la lib "mail".
 define("CONTACT_TITLE","Contact");
-define("CONTACT_DESCRIPTION","Contacter Mubiz");
-define("CONTACT_KEYWORDS","Contact, Mubiz, aide");
+define("CONTACT_DESCRIPTION","Contacter DécouvrirBlockchain");
+define("CONTACT_KEYWORDS","Contact, DécouvrirBlockchain, aide");
 
 define("CONTACT_MAIN_TITLE","Contact");
 define("CONTACT_COORDONNEES_TITLE","Coordonnées");
@@ -112,7 +112,7 @@ define("ERROR_KEYWORDS","Découvrir, Blockchain, Bitcoin, erreur 404, page inexi
 
 define("ERROR_MAIN_TITLE","Désolé, la page que vous demandez n'existe pas.");
 define("ERROR_404_MESSAGE","");
-define("ERROR_UNKNOWN_USER_MESSAGE","L'utilisateur indiqué n'est pas enregistré dans Mubiz.");
+define("ERROR_UNKNOWN_USER_MESSAGE","L'utilisateur indiqué n'est pas enregistré dans DécouvrirBlockchain.");
 define("ERROR_UNVALID_PUBLIC_ADDRESS_MESSAGE","Sorry, the requested Bitcoin public address is unvalid.");
 define("ERROR_UNVALID_AMOUNT_MESSAGE","Le montant indiqué est invalide.");
 
@@ -153,11 +153,11 @@ define("LEGAL_PRESTATAIRE_CONTENT","L'hébergement du site est réalisé par la 
 									Site : www.ovh.com");
 
 define("LEGAL_LINK_TITLE","Liens hypertexte");
-define("LEGAL_LINK_CONTENT","Mubiz ne contrôle pas les sites en connexion avec le sien, et ne saurait donc être responsable de leur contenu.
+define("LEGAL_LINK_CONTENT","DécouvrirBlockchain ne contrôle pas les sites en connexion avec le sien, et ne saurait donc être responsable de leur contenu.
 							Les risques liés à l’utilisation de ces sites incombent pleinement à l’utilisateur. Il en se conformera à leurs conditions d’utilisation.");
 
 define("LEGAL_COPYRIGHTS_TITLE","Droit d’auteur et propriété intellectuelle");
-define("LEGAL_COPYRIGHTS_CONTENT","La conception générale, ainsi que les textes, images animées ou non, sons, savoir faire et tout autres éléments composants le site sont la propriété exclusive de Mubiz et/ou de ses fournisseurs.");
+define("LEGAL_COPYRIGHTS_CONTENT","La conception générale, ainsi que les textes, images animées ou non, sons, savoir faire et tout autres éléments composants le site sont la propriété exclusive de DécouvrirBlockchain et/ou de ses fournisseurs.");
 
 define("LEGAL_COUNTERFEITS_TITLE","Contrefaçon");
 define("LEGAL_COUNTERFEITS_CONTENT","Toute reproduction ou représentation de ce service (contenus, pages, scripts, etc.), en tout ou partie, sur un quelconque support, présent ou futur, est strictement interdite.
@@ -170,7 +170,7 @@ define("LEGAL_PRIVATEDATA_CONTENT","La société E-mProvement utilise vos inform
 									<br/>
 									Conformément à la loi 'Informatique et Libertés', le traitement de vos informations a fait l'objet d'une déclaration auprès de la Commission Nationale de l'Informatique et des Libertés (CNIL) sous le numéro de récépissé 1800320 v 0.<br/>
 									Vous avez un droit permanent d'accès et de rectification sur toutes les données vous concernant, conformément aux textes européens et aux lois nationales en vigueur (article 34 de la loi du 6 janvier 1978).<br/>
-									Il suffit d'en faire la demande à : Mubiz - Service Clients – 7 rue de la Cavée - 77500 CHELLES.");
+									Il suffit d'en faire la demande à : DécouvrirBlockchain - Service Clients – 7 rue de la Cavée - 77500 CHELLES.");
 
 
 
@@ -179,17 +179,17 @@ define("LEGAL_PRIVATEDATA_CONTENT","La société E-mProvement utilise vos inform
 //				PRESS
 // ----------------------------------
 define("PRESS_TITLE","Espace presse");
-define("PRESS_DESCRIPTION","Espace dédié à la relation entre la presse et Mubiz");
-define("PRESS_KEYWORDS","Mubiz, Bitcoin, Presse");
+define("PRESS_DESCRIPTION","Espace dédié à la relation entre la presse et DécouvrirBlockchain");
+define("PRESS_KEYWORDS","DécouvrirBlockchain, Bitcoin, Presse");
 
 define("PRESS_MAIN_TITLE","Presse");
 
 define("PRESS_MUBIZ_PRESS_RELEASE_TITLE","Communiqués de presse");
 define("PRESS_MUBIZ_PRESS_RELEASE_WAITING","Aucun communiqué de presse n'a été communiqué pour le moment.");
-define("PRESS_MUBIZ_PRESS_RELEASE_1_TITLE","Ouverture de Mubiz en version beta");
-define("PRESS_MUBIZ_PRESS_RELEASE_1","25/09/2016 - Mubiz est désormais ouvert au public en version beta.");
-define("PRESS_MUBIZ_PRESS_RELEASE_2_TITLE","Ouverture de la place de marché Mubiz en France");
-define("PRESS_MUBIZ_PRESS_RELEASE_2","17/05/2017 - Mubiz ouvre sa place de marché en France");
+define("PRESS_MUBIZ_PRESS_RELEASE_1_TITLE","Ouverture de DécouvrirBlockchain en version beta");
+define("PRESS_MUBIZ_PRESS_RELEASE_1","25/09/2016 - DécouvrirBlockchain est désormais ouvert au public en version beta.");
+define("PRESS_MUBIZ_PRESS_RELEASE_2_TITLE","Ouverture de la place de marché DécouvrirBlockchain en France");
+define("PRESS_MUBIZ_PRESS_RELEASE_2","17/05/2017 - DécouvrirBlockchain ouvre sa place de marché en France");
 define("PRESS_MUBIZ_PRESS_RELEASE_3_TITLE","Titre du Communiqué de Presse 3");
 define("PRESS_MUBIZ_PRESS_RELEASE_3","01/01/2015 - Titre du Communiqué de Presse 3");
 define("PRESS_MUBIZ_PRESS_RELEASE_4_TITLE","Titre du Communiqué de Presse 4");
@@ -198,18 +198,18 @@ define("PRESS_MUBIZ_PRESS_RELEASE_4","01/01/2015 - Titre du Communiqué de Press
 define("PRESS_MUBIZ_NEWS_TITLE","Actualité");
 define("PRESS_MUBIZ_NEWS_WAITING","Aucune actualité n'a été publiée actuellement");
 define("PRESS_MUBIZ_NEWS_1","16/06/2015 - btcname était présenté à l'occasion du meet-up start-ups bitcoin à Paris");
-define("PRESS_MUBIZ_NEWS_2","22/05/2015 - Mubiz participe à Paris, au Bitcoin Pizza Day");
-define("PRESS_MUBIZ_NEWS_3","21/05/2015 - Mubiz lance btcname en version beta");
-define("PRESS_MUBIZ_NEWS_4","19/05/2015 - Mubiz participe à l'ICT Spring, à Luxembourg");
+define("PRESS_MUBIZ_NEWS_2","22/05/2015 - DécouvrirBlockchain participe à Paris, au Bitcoin Pizza Day");
+define("PRESS_MUBIZ_NEWS_3","21/05/2015 - DécouvrirBlockchain lance btcname en version beta");
+define("PRESS_MUBIZ_NEWS_4","19/05/2015 - DécouvrirBlockchain participe à l'ICT Spring, à Luxembourg");
 
-define("PRESS_MUBIZ_SPEAK_ABOUT_US_TITLE","Ils parlent de Mubiz");
+define("PRESS_MUBIZ_SPEAK_ABOUT_US_TITLE","Ils parlent de DécouvrirBlockchain");
 define("PRESS_MUBIZ_SPEAK_ABOUT_US_WAITING","Aucun article n'est référencé pour le moment.");
 define("PRESS_MUBIZ_SPEAK_ABOUT_US_ARTICLE_URL_1","https://bitcoin.fr/mubiz-une-vitrine-pour-openbazaar/");
 define("PRESS_MUBIZ_SPEAK_ABOUT_US_NEWSPAPER_LOGO_1","/images/press/bitcoin-fr-logo.png");
 define("PRESS_MUBIZ_SPEAK_ABOUT_US_NEWSPAPER_NAME_1","bitcoin.fr");
-define("PRESS_MUBIZ_SPEAK_ABOUT_US_ARTICLE_TITLE_1","Mubiz, une vitrine pour OpenBazaar");
+define("PRESS_MUBIZ_SPEAK_ABOUT_US_ARTICLE_TITLE_1","DécouvrirBlockchain, une vitrine pour OpenBazaar");
 define("PRESS_MUBIZ_SPEAK_ABOUT_US_ARTICLE_DATE_1","25/09/2016");
-define("PRESS_MUBIZ_SPEAK_ABOUT_US_ARTICLE_SUM_UP_1","La plateforme d’e-commerce Mubiz est désormais ouverte au public. Cette version bêta de ne contient pas encore l’ensemble des fonctionnalités prévues, mais permet déjà d’accéder aux boutiques de plus de 250 commerçants d’OpenBazaar. On y retrouva notamment les 7000 produits proposés par Ledger, OpenBazaarOfficiel, DownToTheWood, CryptoSteel ou encore BitGardener.");
+define("PRESS_MUBIZ_SPEAK_ABOUT_US_ARTICLE_SUM_UP_1","La plateforme d’e-commerce DécouvrirBlockchain est désormais ouverte au public. Cette version bêta de ne contient pas encore l’ensemble des fonctionnalités prévues, mais permet déjà d’accéder aux boutiques de plus de 250 commerçants d’OpenBazaar. On y retrouva notamment les 7000 produits proposés par Ledger, OpenBazaarOfficiel, DownToTheWood, CryptoSteel ou encore BitGardener.");
 define("PRESS_MUBIZ_SPEAK_ABOUT_US_ARTICLE_URL_2","http://bitcoinmatin.fr/btcname/");
 define("PRESS_MUBIZ_SPEAK_ABOUT_US_NEWSPAPER_LOGO_2","/images/press/bitcoinmatin-logo.png");
 define("PRESS_MUBIZ_SPEAK_ABOUT_US_NEWSPAPER_NAME_2","Bitcoin Matin");
@@ -230,9 +230,9 @@ define("PRESS_MUBIZ_SPEAK_ABOUT_US_ARTICLE_DATE_4","88/88/2015");
 define("PRESS_MUBIZ_SPEAK_ABOUT_US_ARTICLE_SUM_UP_4","Premières lignes de l\'article 4");
 
 define("PRESS_MUBIZ_DOWNLOAD_TITLE","Documents téléchargeables");
-define("PRESS_MUBIZ_LOGOS_MEAN_1","Symbole de Mubiz - Un M blanc dans un carré vert");
-define("PRESS_MUBIZ_LOGOS_MEAN_2","Logo de Mubiz");
-define("PRESS_MUBIZ_LOGOS_MEAN_3","Banderole de Mubiz");
+define("PRESS_MUBIZ_LOGOS_MEAN_1","Symbole de DécouvrirBlockchain - Un M blanc dans un carré vert");
+define("PRESS_MUBIZ_LOGOS_MEAN_2","Logo de DécouvrirBlockchain");
+define("PRESS_MUBIZ_LOGOS_MEAN_3","Banderole de DécouvrirBlockchain");
 
 define("PRESS_MUBIZ_PICTURES_TITLE","Images");
 define("PRESS_MUBIZ_WALLPAPER_TITLE","Fonds d'écrans");
@@ -243,7 +243,7 @@ define("PRESS_MUBIZ_WALLPAPER_TITLE","Fonds d'écrans");
 //              TEAM
 // ----------------------------------
 define("TEAM_TITLE","Equipe");
-define("TEAM_DESCRIPTION","Présentation des membres de l'équipe de Mubiz");
+define("TEAM_DESCRIPTION","Présentation des membres de l'équipe de DécouvrirBlockchain");
 define("TEAM_KEYWORDS","Decouvrir, Blockchain, Bitcoin, Equipe");
 
 define("TEAM_EMPROVEMENT_TITLE","Equipe");
@@ -256,7 +256,7 @@ define("TEAM_CLAIRE_BIDET_TITLE","Graphiste");
 
 define("TEAM_ALBIN_CAUDERLIER_PRESENTATION","ENSICAEN (Informatique Monétique) et IAE de CAEN (Master d'Administration des Entreprises) - 2010<br/>
 											Albin débute à Blois en tant qu'Ingénieur Technico-Commercial pour la plateforme de paiement en ligne d'Atos Worldline, Sips.
-											Il rejoint Paris en 2012 et participe à des projets innovants du domaine des paiements chez BNP Paribas. Albin découvrir bitcoin en 2014 et devient consultant indépendant. En 2016, Albin lance Mubiz, la première passerelle d'achat de produits du réseau OpenBazaar. Mubiz continue depuis de développer ses activités de <a href='https://fr.mubiz.com/institute' title='Formations spécialisée en technologie blockchain'>formations</a> et <a href='https://fr.mubiz.com/consulting' title='Conseil spécialisé en technologie blockchain'>consulting</a>.");
+											Il rejoint Paris en 2012 et participe à des projets innovants du domaine des paiements chez BNP Paribas. Albin découvrir bitcoin en 2014 et devient consultant indépendant. En 2016, Albin lance DécouvrirBlockchain, la première passerelle d'achat de produits du réseau OpenBazaar. DécouvrirBlockchain continue depuis de développer ses activités de <a href='https://fr.mubiz.com/institute' title='Formations spécialisée en technologie blockchain'>formations</a> et <a href='https://fr.mubiz.com/consulting' title='Conseil spécialisé en technologie blockchain'>consulting</a>.");
 
 
 
@@ -302,8 +302,8 @@ define("ARTICLE_2_PICTURE","/img/blockchain/mobile-wallet.jpg");
 // ----------------------------------
 //              ARTICLE 3
 // ----------------------------------
-define("ARTICLE_3_TITLE","Avoir ses crypto-monnaies sur soi, et faire des paiements (dont carte, sites e-commerce, ...)");
-define("ARTICLE_3_SUBTITLE","Réaliser une transaction depuis son portefeuille mobile + Exploreurs de blockchains (dont liens vers Github pour versions OpenSource)");
+define("ARTICLE_3_TITLE","Stocker ses crypto-monnaies dans son téléphone et faire des paiements");
+define("ARTICLE_3_SUBTITLE","Réaliser une transaction depuis son portefeuille mobile + Exploreurs de blockchains (dont liens vers Github pour versions OpenSource)  (dont carte, sites e-commerce, ...)");
 define("ARTICLE_3_DESCRIPTION","");
 define("ARTICLE_3_KEYWORDS","");
 define("ARTICLE_3_AUTHOR","Albin CAUDERLIER");
@@ -338,8 +338,8 @@ define("ARTICLE_5_PICTURE","/img/bitcoin/bitcoin_strength_1080p.png");
 // ----------------------------------
 //              ARTICLE 6
 // ----------------------------------
-define("ARTICLE_6_TITLE","Proof of Existence et archivage d'un document officiel (titre de prorpiété, brevet, ...)");
-define("ARTICLE_6_SUBTITLE","Archiver la trace d'un document dans une blockchain, puis prouver qu'un document est authentique ou a été modifié (avec Remembr et BitProof)");
+define("ARTICLE_6_TITLE","Proof of Existence et archivage d'un document officiel");
+define("ARTICLE_6_SUBTITLE","Archiver la trace d'un document dans une blockchain, puis prouver qu'un document est authentique ou a été modifié (avec Remembr et BitProof) (titre de propriété, brevet, ...)");
 define("ARTICLE_6_DESCRIPTION","");
 define("ARTICLE_6_KEYWORDS","");
 define("ARTICLE_6_AUTHOR","Albin CAUDERLIER");
@@ -399,7 +399,7 @@ define("ARTICLE_10_PICTURE","/img/blockchain/hd_wallet.jpg");
 //              ARTICLE 11
 // ----------------------------------
 define("ARTICLE_11_TITLE","Acheter un produit sur une place de marché décentralisée");
-define("ARTICLE_11_SUBTITLE","OpenBazaar, Particl et Mubiz");
+define("ARTICLE_11_SUBTITLE","OpenBazaar, Particl et DécouvrirBlockchain");
 define("ARTICLE_11_DESCRIPTION","");
 define("ARTICLE_11_KEYWORDS","");
 define("ARTICLE_11_AUTHOR","Albin CAUDERLIER");
@@ -459,7 +459,7 @@ define("ARTICLE_15_PICTURE","/img/blockchain/mobile-wallet.jpg");
 //              ARTICLE 16
 // ----------------------------------
 define("ARTICLE_16_TITLE","Outils techniques de trading en crypto-monnaies");
-define("ARTICLE_16_SUBTITLE","Postman et liste des API (dont Mubiz, CoinMarketCap, CryptoWatch, BlockStack, ...)");
+define("ARTICLE_16_SUBTITLE","Postman et liste des API (dont DécouvrirBlockchain, CoinMarketCap, CryptoWatch, BlockStack, ...)");
 define("ARTICLE_16_DESCRIPTION","");
 define("ARTICLE_16_KEYWORDS","");
 define("ARTICLE_16_AUTHOR","Albin CAUDERLIER");

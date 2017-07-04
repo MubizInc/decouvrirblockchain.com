@@ -95,21 +95,29 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <h2 class="section-heading">Création du compte</h2>
                     <p>
-                        ...
+                        Avant de tester des services complexes sur des blockchains, je vous propose de débuter simplement par l'achat de bitcoins avec quelques euros. Pas d'inquiétude, vous pourrez, à chaque instant, les revendre si vous le jugez nécessaire.
+                    </p>
+
+                    <h2 class="section-heading">Acheter pour quelques euros de bitcoin sur Paymium</h2>
+                    <p>
+                        Pour essayer avec quelques euros, je vous conseille le site français Paymium : <a href="https://paymium.com" title="Paymium - Exchange français">https://paymium.com</a>
+                        Suite à votre inscription et à la vérification de votre identité (lutte contre le blanchiment oblige), vous pourrez émettre un virement vers le compte créé et acheter votre première portion de bitcoin.
+
+                        Des bureaux de change américains, tels que <a href="https://www.kraken.com" title="">kraken</a> et <a href="https://www.coinbase.com" title="">coinbase</a>, et chinois, tel que <a href="https://gatecoin.com" title="">gatecoin</a>, proposent également ces services.
                     </p>
                     <hr/>
                     <div class="about_author">
                         <h3>A propos de l'auteur</h3>
                         <div class="row">
-                            <div class="col-md-3">
+                            <div class="col-xs-4">
                                 <img src="/img/team/albin-cauderlier.png" alt="Albin CAUDERLIER"/>
                                 <a href="http://www.plferrer.photos/" alt="Pierre-Louis FERRER">&copy; Pierre-Louis FERRER</a>
                             </div>
-                            <div class="col-md-9">
+                            <div class="col-xs-8">
                                 <p>
-                                    <strong>Fondateur de <a href="https://fr.mubiz.com" title="Mubiz">Mubiz</a></strong><br/>
+                                    <strong><?=ARTICLE_1_AUTHOR?></strong><br/>
+                                    <i>Fondateur de <a href="https://fr.mubiz.com" title="Mubiz">Mubiz</a></i><br/>
                                     <?=TEAM_ALBIN_CAUDERLIER_PRESENTATION?>
                                 </p>
                             </div>

@@ -103,11 +103,11 @@
                     <div class="about_author">
                         <h3>A propos de l'auteur</h3>
                         <div class="row">
-                            <div class="col-md-3">
+                            <div class="col-xs-4">
                                 <img src="/img/team/albin-cauderlier.png" alt="Albin CAUDERLIER"/>
                                 <a href="http://www.plferrer.photos/" alt="Pierre-Louis FERRER">&copy; Pierre-Louis FERRER</a>
                             </div>
-                            <div class="col-md-9">
+                            <div class="col-xs-8">
                                 <p>
                                     <strong>Fondateur de <a href="https://fr.mubiz.com" title="Mubiz">Mubiz</a></strong><br/>
                                     <?=TEAM_ALBIN_CAUDERLIER_PRESENTATION?>
