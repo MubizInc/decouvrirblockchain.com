@@ -20,7 +20,7 @@ define("HEADER_SEARCH_LINK","Recherche");
 //            FOOTER
 // ---------------------------------
 define("COMPANY_NAME_SHORT","Decouvrir Blockchain");
-define("ADDRESS","7 rue de la Cavée<br/>77500 Chelles");
+define("ADDRESS","7 rue de la Cavée, 77500 Chelles - FRANCE");
 
 define("FOOTER_RUBRIQUE_TITLE_1","Services");
 define("FOOTER_RUBRIQUE_TITLE_2","Exploreurs");
@@ -258,7 +258,9 @@ define("TEAM_ALBIN_CAUDERLIER_PRESENTATION","ENSICAEN (Informatique Monétique) 
 											Albin débute à Blois en tant qu'Ingénieur Technico-Commercial pour la plateforme de paiement en ligne d'Atos Worldline, Sips.
 											Il rejoint Paris en 2012 et participe à des projets innovants du domaine des paiements chez BNP Paribas. Albin découvrir bitcoin en 2014 et devient consultant indépendant. En 2016, Albin lance DécouvrirBlockchain, la première passerelle d'achat de produits du réseau OpenBazaar. DécouvrirBlockchain continue depuis de développer ses activités de <a href='https://fr.mubiz.com/institute' title='Formations spécialisée en technologie blockchain'>formations</a> et <a href='https://fr.mubiz.com/consulting' title='Conseil spécialisé en technologie blockchain'>consulting</a>.");
 
-
+define("WEBSITE_ALBINCAUDERLIER_URL","https://fr.mubiz.com");
+define("TWITTER_ALBINCAUDERLIER_URL","https://twitter.com/albincauderlier");
+define("LINKEDIN_ALBINCAUDERLIER_URL","https://fr.linkedin.com/in/albincauderlier/");
 
 
 

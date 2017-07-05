@@ -10,7 +10,7 @@
 				}
 			?>
 			<p>
-				<i class="fa fa-map-marker color-white"></i> 7 rue de la Cavée, 77500 Chelles - FRANCE<br/>
+				<i class="fa fa-map-marker color-white"></i> <?=ADDRESS?><br/>
 				<i class="fa fa-mobile color-white"></i> +33 6 27 38 32 31<br/>
 				<i class="fa fa-envelope color-white"></i> contact@decouvrirblockchain.com
 			</p>
@@ -19,23 +19,20 @@
 			<h3><?=FOOTER_RUBRIQUE_TITLE_1?></h3>
 			<div class="footer_link">
 				<?php 
+					if($_SESSION['page']==="about"){echo('<div class="active">'.FOOTER_ITEM_ABOUT.'</div>');}
+					else{							echo('<a href="/about" title="'.FOOTER_ITEM_ABOUT_TITLE.'">'.FOOTER_ITEM_ABOUT.'</a>');}
+				?>
+			</div>
+			<div class="footer_link">
+				<?php 
 					if($_SESSION['page']==="lexique"){	echo('<div class="active">'.FOOTER_ITEM_LEXIQUE.'</div>');}
 					else{								echo('<a href="/lexique" title="'.FOOTER_ITEM_LEXIQUE_TITLE.'">'.FOOTER_ITEM_LEXIQUE.'</a>');}
 				?>
 			</div>
 			<div class="footer_link">
 				<?php 
-					if($_SESSION['page']==="donation"){	echo('<div class="active">Don et Soutien</div>');}
-					else{								echo('<a href="/donation" title="Don">Don et soutien</a>');}
-				?>
-			</div>
-		</div>
-		<div class="col-md-3">
-			<h3><?=FOOTER_RUBRIQUE_TITLE_4?></h3>
-			<div class="footer_link">
-				<?php 
-					if($_SESSION['page']==="about"){echo('<div class="active">'.FOOTER_ITEM_ABOUT.'</div>');}
-					else{							echo('<a href="/about" title="'.FOOTER_ITEM_ABOUT_TITLE.'">'.FOOTER_ITEM_ABOUT.'</a>');}
+					if($_SESSION['page']==="donation"){	echo('<div class="active">Don et soutien</div>');}
+					else{								echo('<a href="https://mubiz.com/about" title="Don">Don et soutien</a>');}
 				?>
 			</div>
 			<div class="footer_link">
@@ -44,6 +41,9 @@
 					else{								echo('<a href="/contact" title="'.FOOTER_ITEM_CONTACT_TITLE.'">'.FOOTER_ITEM_CONTACT.'</a>');}
 				?>
 			</div>
+		</div>
+		<div class="col-md-3">
+			<h3><?=FOOTER_RUBRIQUE_TITLE_4?></h3>
 			<div class="footer_link">
 				<?php 
 					if($_SESSION['page']==="press"){echo('<div class="active">'.FOOTER_ITEM_PRESS.'</div>');}

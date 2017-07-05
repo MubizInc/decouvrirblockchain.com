@@ -42,7 +42,7 @@
                     DecouvrirBlockchain</strong> est un site gratuit, ouvert, porté par l'entreprise <a href="https://mubiz.com" target="_blank" title="Mubiz">Mubiz</a>.
                 </p>
                 <p>
-                    DecouvrirBlockchain.com est <i class="fa fa-cc"></i> <a target="_blank" rel="nofollow" href="https://creativecommons.org/licenses/by-sa/2.0/fr/">sous licence Creative Commons (CC BY-SA 2.0 FR)</a>
+                    DecouvrirBlockchain.com est sous licence <i class="fa fa-cc"></i> <a target="_blank" rel="nofollow" href="https://creativecommons.org/licenses/by-sa/2.0/fr/">Creative Commons (CC BY-SA 2.0 FR)</a>. L'ensemble du code source de DécouvrirBlockchain.com est disponible sur <a target="_blank" href="https://github.com/MubizInc/decouvrirblockchain.com">Github</a>, sous licence MIT.
                 </p>
                 <p>
                     Tout rédacteur souhaitant proposer un article peut le transmettre via <a href="/contact" title="Contacter DecouvrirBlockchain">le formulaire de contact</a>.

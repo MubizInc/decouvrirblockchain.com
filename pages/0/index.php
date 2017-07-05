@@ -137,6 +137,23 @@
                                     <strong><?=ARTICLE_0_AUTHOR?></strong><br/>
 	                    			<i>Fondateur de <a href="https://fr.mubiz.com" title="Mubiz">Mubiz</a></i><br/>
 	                    			<?=TEAM_ALBIN_CAUDERLIER_PRESENTATION?>
+                                    <div class="row">
+                                        <div class="col-xs-4">
+                                            <a href="<?=WEBSITE_ALBINCAUDERLIER_URL?>" title="<?=WEBSITE_ALBINCAUDERLIER_URL?>" target="_blank">
+                                                <i class="fa fa-link" id="facebook_link"></i>
+                                            </a>
+                                        </div>
+                                        <div class="col-xs-4">
+                                            <a href="<?=TWITTER_ALBINCAUDERLIER_URL?>" title="<?=TWITTER_ALBINCAUDERLIER_URL?>"   rel="nofollow" target="_blank">
+                                                <i class="fa fa-twitter" id="twitter_link"></i>
+                                            </a>
+                                        </div>
+                                        <div class="col-xs-4">
+                                            <a href="<?=LINKEDIN_ALBINCAUDERLIER_URL?>"  title="<?=LINKEDIN_ALBINCAUDERLIER_TITLE?>" rel="nofollow" target="_blank">
+                                                <i class="fa fa-linkedin" id="linkedin_link"></i>
+                                            </a>
+                                        </div>
+                                    </div>
 	                    		</p>
 	                    	</div>
 	                    </div>
@@ -145,7 +162,7 @@
 	                <a href="/1/">
 	                    <button type="button" class="btn btn-info float-right">
 	                        1. <?=ARTICLE_1_TITLE?>
-	                        <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+	                        <i class="fa fa-angle-right" aria-hidden="true"></i>
 	                    </button>
 	                </a>
 	                <hr/>
